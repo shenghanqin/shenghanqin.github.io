@@ -1,0 +1,753 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="移动端,">
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
+
+
+
+
+
+
+<meta name="description" content="本文主要列举了调试本地网页、查看测试环境网页的各种方法，涵盖了PC、iPad、移动端的调试技巧。本文的不足之处在于，小溪里暂时还没有找到调试位于微信中和安卓各国产浏览器上的网页。">
+<meta name="keywords" content="移动端">
+<meta property="og:type" content="article">
+<meta property="og:title" content="移动端 Web 网页调试技巧">
+<meta property="og:url" content="http://www.xiaoxili.com/2016/02/25/mobile-web-debugging/index.html">
+<meta property="og:site_name" content="小溪里 - XiaoXili.com">
+<meta property="og:description" content="本文主要列举了调试本地网页、查看测试环境网页的各种方法，涵盖了PC、iPad、移动端的调试技巧。本文的不足之处在于，小溪里暂时还没有找到调试位于微信中和安卓各国产浏览器上的网页。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-04-30T07:28:08.630Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="移动端 Web 网页调试技巧">
+<meta name="twitter:description" content="本文主要列举了调试本地网页、查看测试环境网页的各种方法，涵盖了PC、iPad、移动端的调试技巧。本文的不足之处在于，小溪里暂时还没有找到调试位于微信中和安卓各国产浏览器上的网页。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.xiaoxili.com/2016/02/25/mobile-web-debugging/">
+
+
+
+
+
+  <title> 移动端 Web 网页调试技巧 | 小溪里 - XiaoXili.com </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">小溪里 - XiaoXili.com</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">前端闲扯</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://www.xiaoxili.com/2016/02/25/mobile-web-debugging/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Chilligo Sheng">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="小溪里 - XiaoXili.com">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="小溪里 - XiaoXili.com" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                移动端 Web 网页调试技巧
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-02-25T10:09:36+08:00">
+                2016-02-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>本文主要列举了调试本地网页、查看测试环境网页的各种方法，涵盖了PC、iPad、移动端的调试技巧。<br>本文的不足之处在于，小溪里暂时还没有找到调试位于微信中和安卓各国产浏览器上的网页。</p>
+<a id="more"></a>
+<p><strong>相关设备概念：</strong></p>
+<ul>
+<li><code>PC</code> ：主要指以 Windows 系统为代表的台式机或笔记本，其通常为 1 倍屏</li>
+<li><code>MacBook</code> ：主要指 MacBook Pro Retina，其为 2 倍屏，但 <code>Mackbook Air</code>为 1 倍屏</li>
+<li><code>iPad</code> ：主要指以 iPad Air Retina 和 iPad Mini Retina 为代表的，其为 2 倍屏，且按<code>1024 x 768</code>的“宽高”渲染网页。这里 iPad Pro Retina 是按<code>1366 x 1024</code>的“宽高”渲染网页，在CSS的媒体查询中可以按“笔记本”的断点来设置</li>
+<li>移动端：主要是指手机。<ul>
+<li><code>iPhone 5s</code> 及以下设备：按<code>320</code>的“宽”渲染网页，其为 2 倍屏幕</li>
+<li>常规安卓设备：通常分辨率为<code>1080 x 1920</code>，按<code>360</code>的“宽”渲染网页，其为 3 倍屏幕</li>
+<li><code>iPhone 6</code>：分辨率为<code>750 x 1344</code>，按<code>375</code>的“宽”渲染网页，其为 2 倍屏幕</li>
+<li><code>iPhone 6 plus</code>：实际分辨率为<code>1242 x 2208</code>，按<code>414</code>的“宽”渲染网页，其为 3 倍屏幕。PS：貌似 iPhone 6 plus 实际显示器上渲染后的分辨率为<code>1080 x 1920</code>。</li>
+</ul>
+</li>
+</ul>
+<h2 id="本地开发网页"><a href="#本地开发网页" class="headerlink" title="本地开发网页"></a>本地开发网页</h2><blockquote>
+<p>主要针对前端工程师，测试工程师也可以学习使用。</p>
+</blockquote>
+<p>前端在开发移动端网页时，通常使用 <code>localhost</code> 在本地访问网页，在除本机外的设备上都需要换成 <code>IP</code> 访问。</p>
+<ul>
+<li><code>ifconfig</code> ： OS X 系统上查看网络信息的命名，在<code>Macbook Pro</code>上 <code>en0</code> 代表 Wifi，所以可以用<code>ifconfig en0</code>直接查看 Wifi 的信息。</li>
+<li><code>ipconfig</code> ：Windows 系统上查看网络信息的命令。</li>
+</ul>
+<h3 id="Chrome-Emulation-即时“仿真”调试网页"><a href="#Chrome-Emulation-即时“仿真”调试网页" class="headerlink" title="Chrome Emulation 即时“仿真”调试网页"></a><code>Chrome Emulation</code> 即时“仿真”调试网页</h3><p><code>Chrome Emulation</code> 使用的当前 <code>Chrome</code> 版本的 <code>Webkit</code>或 <code>Blink</code> 渲染的网页，跟 <code>iPhone</code> 或安卓设备上的浏览器上渲染出的网页效果可能存在差异，如安卓 UC 浏览器就存在各种各样的小 bug。</p>
+<ul>
+<li>审查元素：右击或使用快捷键(Mac：command + option + i)</li>
+<li>调出 <code>Emulation</code>：再审查元素后，点击对应的图标或者使用快捷键（Mac：command + option + m）</li>
+</ul>
+<p><strong>吐槽</strong><br>PC或Mac连接安卓设备，想用 <code>Chrome</code> 审查元素查看安卓设备上<code>Chrome</code>浏览器上打开的网页，还需要<code>翻墙</code>，但是却无法查看安卓设备上国产厂商封装的浏览器，如UC浏览器、QQ浏览器。</p>
+<h3 id="Safari-即使调试网页"><a href="#Safari-即使调试网页" class="headerlink" title="Safari 即使调试网页"></a><code>Safari</code> 即使调试网页</h3><p><strong>“响应式设计模式”</strong><br><code>Safari</code> 在 “开发”菜单中有“响应式设计模式”，里面有常见的 <code>iOS</code> 设备，如 iPhone 4s 、 iPhone 5s 、 iPhone 6s 、iPhone 6s plus 、 iPad mini 4 、 iPad Air 2 、 iPad Pro等。<br>当然，这里的 <code>Safari</code> 的内核应该还是基于当前系统的，与 iOS 设备上各自的 Safari 上可能还存在着差异。<br><strong>超级棒的审查元素</strong><br>在 <code>Safari</code> 上不仅可以调试浏览器本身打开的网页，还能打开下文中提到的 <code>Xcode Simulator</code> 打开的网页，甚至可以打开用 USB 连接的 iPhone/iPad。</p>
+<h3 id="Xcode-Simulator-模拟器"><a href="#Xcode-Simulator-模拟器" class="headerlink" title="Xcode Simulator 模拟器"></a><code>Xcode Simulator</code> 模拟器</h3><p><code>Xcode Simulator</code> 是可以模拟各版本 iOS 系统的各种设备，比 <code>Safari</code>  更棒的地方在于它模拟了各种 iOS 系统上的 Safari，因此可以复现各种奇葩 bug。</p>
+<ul>
+<li>系统涵盖了从 iOS 8.0 到 iOS 9.2 的各个版本、tvOS 、 watchOS</li>
+<li>设备涵盖了 iPhone 、 iPad 、tvOS 、 Apple Watch 、 Apple TV</li>
+</ul>
+<p>小溪里推荐下载 iOS 8.1，因为自带的最新 iOS 模拟器在运行时可能会卡。</p>
+<h2 id="访问测试环境的网页"><a href="#访问测试环境的网页" class="headerlink" title="访问测试环境的网页"></a>访问测试环境的网页</h2><blockquote>
+<p>主要针对测试工程师，前端工程师学习起来也是 so easy 的。</p>
+</blockquote>
+<h3 id="静态IP"><a href="#静态IP" class="headerlink" title="静态IP"></a>静态IP</h3><p><strong>原理简析：</strong>静态 IP 其实重心是在移动设备设置特定 DNS，而特定 DNS 是与测试环境有关系的。<br><strong>不足之处：</strong>在iPad 及 移动端上配置静态 IP 后，浏览器可以访问位于测试环境的网页，但微信却只能访问位于正式环境的网页。</p>
+<p><strong>设置步骤：</strong></p>
+<ol>
+<li>记住自动分配的 IP </li>
+<li>设置对应设备的静态 IP  <ul>
+<li>iOS：设置 - 无线局域网 - 选中网络 - IP地址 - 静态</li>
+<li>Android：设置 - WLAN - 长按选中网络 - 修改网络 - 高级 - 静态 IP</li>
+</ul>
+</li>
+</ol>
+<h3 id="网络代理"><a href="#网络代理" class="headerlink" title="网络代理"></a>网络代理</h3><p><strong>原理简析：</strong>在 PC 或Mac 上已经设置成功了测试环境，而移动设备通过网络代理访问 PC 或 Mac 上的网络设置，就可以访问测试环境了，无论是浏览器还是微信。</p>
+<p><strong>设置代理的常见方式（具体请自行百度）</strong></p>
+<ul>
+<li>Fiddler 代理，只适用于windows系统</li>
+<li>Charles 代理，适用于OS X系统（即Mac电脑）</li>
+<li>微信web开发者工具（以下简称“微信工具”），适用于windows和Mac</li>
+</ul>
+<p>####微信web开发者工具<br><a href="http://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html]" target="_blank" rel="noopener">官网地址</a></p>
+<blockquote>
+<ul>
+<li>使用自己的微信号来调试微信网页授权</li>
+<li>调试、检验页面的 JS-SDK 相关功能与权限，模拟大部分 SDK 的输入和输出</li>
+<li>使用基于 weinre 的移动调试功能</li>
+<li>利用集成的 Chrome DevTools 协助开发</li>
+</ul>
+</blockquote>
+<p><strong>移动调试</strong><br>可以在微信中查看位于测试环境的网页</p>
+<ol>
+<li>确保本机和移动设备在同一局域网网段中</li>
+<li>将移动设备的网络代理配置到：http://**.**.**.**（ PC或Mac 的IP），端口： 9973<ul>
+<li>iOS： 设置 - 无线局域网 - 选中网络 - HTTP代理手动</li>
+<li>Android： 设置 - WLAN - 长按选中网络 - 修改网络 - 高级 - 代理设置 - 手动</li>
+</ul>
+</li>
+<li>重启微信，并在微信中访问网页</li>
+</ol>
+<p>PS：在小溪里的电脑上并没有像官网宣传的那样可以审查元素</p>
+<p>在小溪里所在的公司里面，设置网络代理的步骤：</p>
+<ol>
+<li>连接 Wifi</li>
+<li>弹出验证窗口，输入公司账户</li>
+<li>设置网络代理</li>
+</ol>
+<p><strong>PS：</strong>连接 Wifi后，要确保没有设置网络代理，这样才可以弹出验证窗口。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/移动端/" rel="tag"># 移动端</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/06/03/break-of-responsive-web-design/" rel="next" title="响应式Web设计——断点设计">
+                <i class="fa fa-chevron-left"></i> 响应式Web设计——断点设计
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/03/31/angularjs-multi-field-sorting/" rel="prev" title="AngularJS  多字段混合排序">
+                AngularJS  多字段混合排序 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="Chilligo Sheng">
+          <p class="site-author-name" itemprop="name">Chilligo Sheng</p>
+          <p class="site-description motion-element" itemprop="description">小溪里，来自于某个很有情怀的公司，喜欢前端，也喜欢产品，更喜欢闲扯。刚学摄影，喜欢拍拿手菜酸辣土豆丝。</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">19</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#本地开发网页"><span class="nav-number">1.</span> <span class="nav-text">本地开发网页</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Chrome-Emulation-即时“仿真”调试网页"><span class="nav-number">1.1.</span> <span class="nav-text">Chrome Emulation 即时“仿真”调试网页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Safari-即使调试网页"><span class="nav-number">1.2.</span> <span class="nav-text">Safari 即使调试网页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Xcode-Simulator-模拟器"><span class="nav-number">1.3.</span> <span class="nav-text">Xcode Simulator 模拟器</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#访问测试环境的网页"><span class="nav-number">2.</span> <span class="nav-text">访问测试环境的网页</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#静态IP"><span class="nav-number">2.1.</span> <span class="nav-text">静态IP</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#网络代理"><span class="nav-number">2.2.</span> <span class="nav-text">网络代理</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Chilligo Sheng</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+<div class="powered-by">
+  Hosted by <a href="https://pages.coding.me">Coding Pages</a>
+</div>
+<div class="powered-by">
+  Look at <a href="https://github.com/shenghanqin/">My GitHub</a>
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>

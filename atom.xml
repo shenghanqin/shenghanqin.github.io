@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[小溪里 - XiaoXili.com]]></title>
+  <subtitle><![CDATA[前端闲扯]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://www.xiaoxili.com/"/>
+  <updated>2016-12-07T11:15:12.000Z</updated>
+  <id>http://www.xiaoxili.com/</id>
+  
+  <author>
+    <name><![CDATA[Chilligo Sheng]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[盛瀚钦 - Web 前端开发工程师 - 上海]]></title>
+    <link href="http://www.xiaoxili.com/2016/12/07/fe-resume/"/>
+    <id>http://www.xiaoxili.com/2016/12/07/fe-resume/</id>
+    <published>2016-12-06T16:00:00.000Z</published>
+    <updated>2016-12-07T11:15:12.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="联系方式">联系方式</h2><ul>
+<li>手机：<a href="tel:17602189198" target="_blank" rel="external">17602189198</a></li>
+<li>Email: <a href="mailto:shenghanqin@163.com" target="_blank" rel="external">shenghanqin@163.com</a></li>
+<li>Blog：<a href="http://www.xiaoxili.com">www.xiaoxili.com</a></li>
+<li>Github：<a href="https://github.com/shenghanqin/" target="_blank" rel="external">https://github.com/shenghanqin/</a></li>
+</ul>
+<h2 id="工作经历">工作经历</h2><h3 id="2015-01_-_2016-12_锤子科技（北京）股份有限公司_Web_前端开发工程师">2015.01 - 2016.12  锤子科技（北京）股份有限公司  Web 前端开发工程师</h3><p><strong>官网开发</strong>（包含在线商城、手机产品站、应用下载等）</p>
+<ul>
+<li>基于 AngularJS 搭建多模块的前端架构，含有基础的服务、过滤器、指令，有利于团队协作；</li>
+<li>基于 CSS Media Queries 实现响应式设计及移动端适配，并解决浏览器兼容性问题；</li>
+<li>基于 AngularJS ngTranslation 实现多语言切换；</li>
+<li>多人协作维护这个多模块架构。</li>
+</ul>
+<p><strong>在线商城开发</strong></p>
+<ul>
+<li>从 Bockbone.js 转成 AngularJS，实现了 MVC 到 MVVM 的转换，并融合到“多模块架构”中，以利于统一所有站点的代码风格；</li>
+<li>在 AngularJS 项目中运用 AngularJS Collection 实现 Store 状态，为商城购物车数据一致性提供了依据；</li>
+<li>构建 AngularJS Service 基础服务（如商品信息整理）和 AngularJS Directive 基础指令（如数量控件）， 构建弹窗服务，有效减少了重复实现相同功能；</li>
+<li>基于 AngularJS Directive 构建自定义指令，实现表单校验功能。</li>
+</ul>
+<p><strong>网页动画及插件</strong></p>
+<ul>
+<li>3D Banner 轮播图 - 基于图片叠层、CSS3、JavaScript 实现 3D 效果；</li>
+<li>加入购物车 - 基于 CSS3、JavaScript 实现动画效果，并融入到现有的商城业务逻辑中；</li>
+<li>Page Scroll 单页滚屏 - 跨屏插件，在多个手机产品站内使用；</li>
+<li>Mp4 视频轮播 - 解决 MP4 视频前 200ms 不正常的问题，在浏览器不兼容时用图片代替。</li>
+</ul>
+<a id="more"></a>
+<h3 id="2014-01_-_2014-12_美通云动（北京）科技有限公司_前端开发工程师">2014.01 - 2014.12    美通云动（北京）科技有限公司    前端开发工程师</h3><p>职责：基于自我研发的 Web IDE 将 PC 版网站适配成手机版和 iPad 版；<br>项目：银泰集团官网、CSDN CODE、劲霸创富汇等。</p>
+<h3 id="2013-10_-_2013-12_新浪_UDC_网页重构实习生">2013.10 - 2013.12  新浪 UDC  网页重构实习生</h3><p>职责：系统学习页面构建知识，参与新浪视频首页的响应式设计开发；<br>项目：新浪视频首页改版、新媒体后台发布系统。</p>
+<h2 id="教育背景">教育背景</h2><p><strong>2010.09 - 2014.06     东北大学 985、211   行管管理专业</strong><br><strong>主要课程：</strong>行政管理学，人力资源管理，经济法，物权法，证据法学，形式逻辑学，演讲概论；<br><strong>学生干部：</strong>班学习委员，院网络部副部长，校团委宣传部副部长，创建明日工作室（学生网络团队）；<br><strong>获奖情况：</strong>多次获校网络比赛奖项，“优秀团干部”，2次“优秀青年志愿者”，校“一二九”长跑第八名；<br><strong>毕业设计：</strong>《当代中国高校门户网站现状分析及建设方案——以东北大学秦皇岛分校为例》。</p>
+<h2 id="编程技能">编程技能</h2><ol>
+<li>熟悉 JavaScript，有 2 年的 AngularJS 开发经验，了解 Backbone.js、React，熟悉网页动画；</li>
+<li>熟悉 HTML5、CSS3，有 3 年的响应式设计及移动端适配开发经验，深入研究 SEO 及 HTML 语义化；</li>
+<li>了解 Node.js，了解 MongoDB，可搭建简单的博客；熟悉 Gulp 打包上线及 Git 版本控制；</li>
+<li>了解 Java 及其设计模式，了解 JavaSE/JavaEE；了解 PHP，有多年 WordPress 主题的开发经验。</li>
+</ol>
+<h2 id="自我评价">自我评价</h2><ul>
+<li>本人性格开朗，待人真诚热情、充满活力；</li>
+<li>工作认真负责，能吃苦耐劳，具有较强的抗压能力；</li>
+<li>具有较强的无私奉献精神，乐于分享自己的研究成果；</li>
+<li>上进心强，勤于学习，勇于创新，能不断提高自身的能力与综合素质。</li>
+</ul>
+<h2 id="兴趣爱好">兴趣爱好</h2><p>摄影，旅行，写作，硬笔书法</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="联系方式">联系方式</h2><ul>
+<li>手机：<a href="tel:17602189198">17602189198</a></li>
+<li>Email: <a href="mailto:shenghanqin@163.com">shenghanqin@163.com</a></li>
+<li>Blog：<a href="http://www.xiaoxili.com">www.xiaoxili.com</a></li>
+<li>Github：<a href="https://github.com/shenghanqin/">https://github.com/shenghanqin/</a></li>
+</ul>
+<h2 id="工作经历">工作经历</h2><h3 id="2015-01_-_2016-12_锤子科技（北京）股份有限公司_Web_前端开发工程师">2015.01 - 2016.12  锤子科技（北京）股份有限公司  Web 前端开发工程师</h3><p><strong>官网开发</strong>（包含在线商城、手机产品站、应用下载等）</p>
+<ul>
+<li>基于 AngularJS 搭建多模块的前端架构，含有基础的服务、过滤器、指令，有利于团队协作；</li>
+<li>基于 CSS Media Queries 实现响应式设计及移动端适配，并解决浏览器兼容性问题；</li>
+<li>基于 AngularJS ngTranslation 实现多语言切换；</li>
+<li>多人协作维护这个多模块架构。</li>
+</ul>
+<p><strong>在线商城开发</strong></p>
+<ul>
+<li>从 Bockbone.js 转成 AngularJS，实现了 MVC 到 MVVM 的转换，并融合到“多模块架构”中，以利于统一所有站点的代码风格；</li>
+<li>在 AngularJS 项目中运用 AngularJS Collection 实现 Store 状态，为商城购物车数据一致性提供了依据；</li>
+<li>构建 AngularJS Service 基础服务（如商品信息整理）和 AngularJS Directive 基础指令（如数量控件）， 构建弹窗服务，有效减少了重复实现相同功能；</li>
+<li>基于 AngularJS Directive 构建自定义指令，实现表单校验功能。</li>
+</ul>
+<p><strong>网页动画及插件</strong></p>
+<ul>
+<li>3D Banner 轮播图 - 基于图片叠层、CSS3、JavaScript 实现 3D 效果；</li>
+<li>加入购物车 - 基于 CSS3、JavaScript 实现动画效果，并融入到现有的商城业务逻辑中；</li>
+<li>Page Scroll 单页滚屏 - 跨屏插件，在多个手机产品站内使用；</li>
+<li>Mp4 视频轮播 - 解决 MP4 视频前 200ms 不正常的问题，在浏览器不兼容时用图片代替。</li>
+</ul>]]>
+    
+    </summary>
+    
+      <category term="CSS3" scheme="http://www.xiaoxili.com/tags/CSS3/"/>
+    
+      <category term="HTML5" scheme="http://www.xiaoxili.com/tags/HTML5/"/>
+    
+      <category term="JavaScript" scheme="http://www.xiaoxili.com/tags/JavaScript/"/>
+    
+      <category term="前端" scheme="http://www.xiaoxili.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[前端书单（图灵社区版）]]></title>
+    <link href="http://www.xiaoxili.com/2016/08/31/fe-book-from-turing/"/>
+    <id>http://www.xiaoxili.com/2016/08/31/fe-book-from-turing/</id>
+    <published>2016-08-31T15:29:12.000Z</published>
+    <updated>2016-09-01T05:20:50.000Z</updated>
+    <content type="html"><![CDATA[<p>在 8 月 27 日的iWeb 大会上，与图灵社区李洁讨论如何让读者更好地选择书籍时，我向她推荐用书单的方式，会更加有效。</p>
+<p>不过，在具体看书单列表之前，请让我简述一下我所看过（而非一定是钻研过）的领域。我是一名偏重于UI体验与逻辑有效性、对服务器端语言也小有接触的初级前端，对前端架构、算法等高深知识并不怎么了解。</p>
+<blockquote>
+<p>若书单内容有误，请联系图灵社区或作者本人，及时调整。<br>我只推荐我看过或者了解过，认为不错的书。</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="HTML">HTML</h2><h3 id="《HTML5权威指南》">《<a href="http://www.ituring.com.cn/book/931" target="_blank" rel="external">HTML5权威指南</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/931.762.jpg" alt="HTML5权威指南"></p>
+<p>这本书，我只是在大学图书馆看过，并未深入推演。不过，对于初学者了解 HTML、CSS 、JavaScript 有哪些内容，还是可以的。既有对HTML4的浅显知识的讲解，又有对HTML5新知识的介绍。</p>
+<h2 id="CSS">CSS</h2><h3 id="《CSS揭秘》">《<a href="http://www.ituring.com.cn/book/1695" target="_blank" rel="external">CSS揭秘</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1695.78.jpg" alt="CSS揭秘"></p>
+<p>这本书是我所在前端组组长买了好几本给我们组的同事看。<br>书中按不同场景介绍CSS3的用法，同一个场景也提供了不同的解决方案。很多解决方案都突破了我的认知，让我思路拓展了很多。</p>
+<h3 id="《响应式Web设计：HTML5和CSS3实战(第2版)》">《<a href="http://www.ituring.com.cn/book/1817" target="_blank" rel="external">响应式Web设计：HTML5和CSS3实战(第2版)</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1817.428.jpg" alt="响应式Web设计：HTML5和CSS3实战(第2版)"></p>
+<blockquote>
+<p>本书不仅全面、细致、图文并茂地介绍了响应式设计相关的技术，比如媒体查询、流式布局、弹性媒体和弹性字体等等，还把近几年来Web设计领域公认的最佳设计理念有机地融入到了实例当中，比如移动先行（Mobile First）、渐进增强、平稳退化、无障碍设计等等。<br>—— 截取自图岭社区书籍介绍</p>
+</blockquote>
+<p>从13年到16年的三年工作时间，我基本都在从事响应式网页开发，逐渐发现，响应式设计可以理解为在不同屏幕分辨率下采用的不同布局方案，PC 端和移动端在网页布局细节上也会有诸多不同。这本书就很好地解答了我不少疑惑，使得我可以在响应式网页布局上拥有了明确的布局原则。</p>
+<h2 id="JavaScript">JavaScript</h2><h3 id="《JavaScript_DOM编程艺术（第2版）》">《<a href="http://www.ituring.com.cn/book/42" target="_blank" rel="external">JavaScript DOM编程艺术（第2版）</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/42.jpg" alt="JavaScript DOM编程艺术"></p>
+<p>JavaScript 初学者可以看的书。有概念介绍，有示例，也有实操。</p>
+<blockquote>
+<p>本书讲述了JavaScript、DOM 和HTML5 的基础知识，着重介绍DOM 编程技术背后的思路和原则：平稳退化、渐进增强和以用户为中心等。这些概念对于任何前端Web开发工作都非常重要。</p>
+</blockquote>
+<h3 id="《JavaScript高级程序设计（第3版）》">《<a href="http://www.ituring.com.cn/book/946" target="_blank" rel="external">JavaScript高级程序设计（第3版）</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/946.585.jpg" alt="JavaScript高级程序设计"></p>
+<blockquote>
+<p>一幅浓墨重彩的语言画卷，一部推陈出新的技术名著<br>全能前端人员必读之经典，全面知识更新必备之佳作。</p>
+</blockquote>
+<p>作为我心中的 JavaScript 红宝书或床头书，下载过PDF版本，又买了纸质版和电子版。这本书中对 JavaScript 面向对象的介绍，让我对 JavaScript 有了更深刻的理解。当然，书中会详细解答 JavaScript 的方方面面。</p>
+<h3 id="《JavaScript设计模式与开发实践》">《<a href="http://www.ituring.com.cn/book/1632" target="_blank" rel="external">JavaScript设计模式与开发实践</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1632.236.jpg" alt="JavaScript设计模式与开发实践"></p>
+<blockquote>
+<p>腾讯前端Alloy Team团队出品，资深前端工程师曾探力作<br>全面涵盖专门针对JavaScript的16个设计模式<br>深入剖析面向对象设计原则、面向对象编程技巧及代码重构  </p>
+</blockquote>
+<p>前文提及 JavaScript 入门书和进阶书，那这本书就是“钻研书”。其实 合理的 JavaScript 代码结构体现了编程人员的更好的思路，套用 JavaScript 设计模式的代码，会让代码变得更加优美。</p>
+<h2 id="Node-js">Node.js</h2><h3 id="《Node与Express开发》">《<a href="http://www.ituring.com.cn/book/1485" target="_blank" rel="external">Node与Express开发</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1485.967.jpg" alt="Node与Express开发
+"></p>
+<p>这本书可以作为Nodejs的入门书，也可以Express的入门书。</p>
+<p>在我看来，用Nodejs当服务器和后端语言，用Mongodb作为数据，用Express.js制作TodoList或个人小博客，可以快速入门JavaScript服务器端开发。</p>
+<h3 id="《深入浅出Node-js》">《<a href="http://www.ituring.com.cn/book/1290" target="_blank" rel="external">深入浅出Node.js</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1290.952.jpg" alt="深入浅出Node.js"></p>
+<p>这本书我有两本，一本我买的，一本是奖品。想从事 Nodejs 开发或深入钻研 Nodejs的，可以看看这本书。</p>
+<h2 id="前端库或框架">前端库或框架</h2><h3 id="《AngularJS权威教程》">《<a href="http://www.ituring.com.cn/book/1438" target="_blank" rel="external">AngularJS权威教程</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1438.967.jpg" alt="AngularJS权威教程"></p>
+<p>这本书，可以深入了解 Angular.js 的使用方法。我在工作中，常常遇到 Angular.js 的用法疑惑，打开这本书，立马得到不错的解答。</p>
+<blockquote>
+<p>本书讲的是 Angular.js 1.x 版本，不知道在 Angular.js 2.0 版本出来后，会有多大差异。</p>
+</blockquote>
+<h3 id="《JavaScript网页动画设计》">《<a href="http://www.ituring.com.cn/book/1661" target="_blank" rel="external">JavaScript网页动画设计</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1661.987.jpg" alt="JavaScript网页动画设计"></p>
+<p>这本书是我在经历过几次交互动画的编写后才购买的。书不厚，会告诉很多做网页动画的原则，可以作为交互动画的启蒙书。</p>
+<h3 id="《jQuery基础教程（第4版）》">《<a href="http://www.ituring.com.cn/book/1169" target="_blank" rel="external">jQuery基础教程（第4版）</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1169.520.jpg" alt="jQuery基础教程（第4版）"></p>
+<blockquote>
+<p>本书是jQuery经典技术教程的最新升级版，涵盖jQuery 1.10.x和jQuery 2.0.x。本书前6章以通俗易懂的方式讲解了jQuery的核心组件，包括jQuery的选择符、事件、动画、DOM操作、Ajax支持等。</p>
+</blockquote>
+<p>可以作为日常开发过程中的手边书。</p>
+<p>PS：我在日常工作中，会用 jQuery 代替原生 JavaScript 来开发，虽然在Angular.js中引用jQuery让网站资源更大，但 jQuery 保证了我的代码简单易懂。</p>
+<h2 id="设计">设计</h2><blockquote>
+<p>前端UI界面，不仅仅是需要将网页设计稿用代码实现，并且要将设计稿的细节在网页中更好地呈现，设计师没想到的细节，前端也要补上。另外，前端是需要与产品经理、设计师针对网页设计稿进行有效共同的，那么对UI界面的基本原则还是有必要的了解。</p>
+</blockquote>
+<h3 id="《写给大家看的设计书（第4版）》">《<a href="写给大家看的设计书（第4版">写给大家看的设计书（第4版）</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1757.441.jpg" alt="写给大家看的设计书（第4版"></p>
+<p>看完本书，我对这本书的亲密性、对齐、重复和对比4大基本原则感触很深，在平时自己对 Word 排版、 PPT 幻灯片、网页UI开发都有很大的帮助。</p>
+<blockquote>
+<p>出自一位世界级设计师之手。复杂的设计原理在《写给大家看的设计书》中凝炼为。作者以其简洁明快的风格，将优秀设计所必须遵循的这4个基本原则及其背后的原理通俗易懂地展现在读者面前。《写给大家看的设计书》包含大量的示例，让你了解怎样才能按照自己的方式设计出美观且内容丰富的产品。<br>—— 取自百度百科</p>
+</blockquote>
+<h3 id="《移动应用UI设计模式（第2版）》">《<a href="http://www.ituring.com.cn/book/1453" target="_blank" rel="external">移动应用UI设计模式（第2版）</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1453.539.jpg" alt="移动应用UI设计模式"></p>
+<blockquote>
+<p>这本书是想深入了解UI设计（移动端网站和 APP 应用）的内容才需要看的。——个人观点。</p>
+</blockquote>
+<h2 id="产品经理">产品经理</h2><h3 id="《产品经理那些事儿》">《<a href="http://www.ituring.com.cn/book/1334" target="_blank" rel="external">产品经理那些事儿</a>》</h3><p><img src="http://www.ituring.com.cn/bookcover/1334.765.jpg" alt="产品经理那些事儿"></p>
+<blockquote>
+<p>史上最全、干货最多、百读不厌的产品经理实战经验！ </p>
+</blockquote>
+<p>PS：这本书提供的试读章节足够让你了解这本书的特点。</p>
+<h2 id="更加齐全的前端汇总或书单">更加齐全的前端汇总或书单</h2><p>《送给前端的你，推荐几篇前端汇总文章》<br><a href="https://zhuanlan.zhihu.com/p/22229868" target="_blank" rel="external">https://zhuanlan.zhihu.com/p/22229868</a></p>
+<h2 id="附上我的买书策略">附上我的买书策略</h2><ul>
+<li>书籍性价比高，对自身帮助大或符合自身学习需求就可以看看目录、评论等，再决定是否购买。</li>
+<li>推荐注册图灵社区网站，书籍都有试读章节。</li>
+<li>按照自己目前工作所需，也可以向公司申请购买图书。</li>
+</ul>
+<h2 id="最后描述一下我自己吧">最后描述一下我自己吧</h2><p>小溪里，某个很有情怀公司前端工程师，经常写写前端文章和随笔，也正在学习摄影（纯属小白）。</p>
+<p>个人博客： <a href="http://xiaoxi.li" target="_blank" rel="external">http://xiaoxi.li</a><br>个人微博： <a href="http://weibo.com/519918012" target="_blank" rel="external">http://weibo.com/519918012</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在 8 月 27 日的iWeb 大会上，与图灵社区李洁讨论如何让读者更好地选择书籍时，我向她推荐用书单的方式，会更加有效。</p>
+<p>不过，在具体看书单列表之前，请让我简述一下我所看过（而非一定是钻研过）的领域。我是一名偏重于UI体验与逻辑有效性、对服务器端语言也小有接触的初级前端，对前端架构、算法等高深知识并不怎么了解。</p>
+<blockquote>
+<p>若书单内容有误，请联系图灵社区或作者本人，及时调整。<br>我只推荐我看过或者了解过，认为不错的书。</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="CSS3" scheme="http://www.xiaoxili.com/tags/CSS3/"/>
+    
+      <category term="HTML5" scheme="http://www.xiaoxili.com/tags/HTML5/"/>
+    
+      <category term="JavaScript" scheme="http://www.xiaoxili.com/tags/JavaScript/"/>
+    
+      <category term="前端" scheme="http://www.xiaoxili.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[儿时的梦，现在的灯]]></title>
+    <link href="http://www.xiaoxili.com/2016/05/25/childhood-and-now/"/>
+    <id>http://www.xiaoxili.com/2016/05/25/childhood-and-now/</id>
+    <published>2016-05-25T15:29:15.000Z</published>
+    <updated>2016-05-25T15:35:01.000Z</updated>
+    <content type="html"><![CDATA[<p>今夜是舍友生日，我与他探讨了关于梦的一些想法。这里我只是说说我的一些想法。</p>
+<p>他说的是关于“庄周梦蝶”的理论。<br>而我也曾经梦到过梦里面还有梦、在梦里知道我在做梦等情形，也有过陷入梦境，必须强行用自我意识才可以从梦境中跳脱出来的情况。所以，我的梦也是千奇百怪的。</p>
+<p>当然，这里我不想探讨过多梦的理论，我只想在这个庆生的日子里说说我儿时梦中的几个愿景。</p>
+<a id="more"></a>
+<p><strong>一、跟探照灯一样大的电视机</strong><br>儿时，家中是黑白电视机，每天六点半都会跟姐姐一起守在电视前看“小木偶”（动画片），有一天，在梦中就梦到了跟探照灯一样大的电视机。<br>现在，生活中的荧屏都缩小到了智能手表、智能手环的大小了，所以，小时候的这个梦已经实现了。</p>
+<p><strong>二、带着飞机机翼的自行车</strong><br>儿时，每每在电视前看到飞机，总有憧憬自己某一天也可以飞上蓝天。有一天，自己就真的骑着自行车飞上了天，自行车上是有着飞机机翼的。<br>现在，小型飞机也是可以带着人上天的。</p>
+<p><strong>三、放在小店货架上的雪糕</strong><br>儿时，夏天的时候很幸福的事情就是花上五毛毛钱买上一个雪糕吃吃。有一天，我在梦中梦到了雪糕被摆放在小店（小卖部）的货架上，我们小孩子随意挑选。<br>现在，冰激凌也是可以放在可以放在散发冷气的货架上的，虽然时间不能放很久。</p>
+<p><strong>以上愿景皆来自于一个只看过电视机，还没上过学，没了解过外面世界的小孩子的梦。</strong><br><strong>那么，我现在有木有做着儿时的梦呢？其实是有的。</strong></p>
+<p>如前文所说，梦里套着梦，陷入梦境无法自拔的情形，<br>也比如，嫌步行很麻烦，就想着飘着走，脚尖并不着地。那么，意识重了就加速了，意识轻了就减速了。某日，看到很陡很高的一个斜坡，感觉自己飘不上去了，也就得寻思着下一次的梦也是可以解决这一个问题的。<br>更比如，很多时候我的梦，如果第二天能记得一个大概的话，那写出来就是一篇玄幻或武侠小说，或者一个凄美的爱情故事。</p>
+<p>这里不得不附上来自于我的梦境的小说——《幻琳》 <a href="http://www.ituring.com.cn/article/119940" target="_blank" rel="external">http://www.ituring.com.cn/article/119940</a><br>兄妹之间的守护情谊。</p>
+<blockquote>
+<p>那一瞬间，彩虹的光芒从妙幻儿的心口穿过，妙幻儿的幻影这才消失了，转化成光芒四射的天使姿态。<br>……剧痛！妙幻儿从天使姿态一下子变成人。他舍弃了他得到的天使的能力，只为了——————<br>血缓缓地从心口流出，缓缓地渗透进彩色的光芒中，补充了光芒中缺少的那一抹红！！！<br>七彩光这才绽放它真正的光芒——守护之光。<br>妙琳儿苏醒了，微笑红润起来。<br>可是，当她看到哥哥心口的血的时候，“哥哥——”<br>妙幻儿祥和地看着自己的妹妹，道：“琳儿，哥哥不能继续守护你了，只能将天使的能力注入到你的七彩光之中。还好，你醒了。记住，妹妹，你一定要好好活下去！……”<br>“哥哥——不——”<br>依旧是——<br>天空，彩虹……<br>刚刚失去哥哥的妙琳儿此时却听从哥哥的临终叮嘱——好好活下去。<br>“旋舞飞天——”<br>妙琳儿缓缓伸出手，手掌展开，在身前一划。七彩光从掌心由浅及深，焕发出不断变化的无穷变化的色彩。七彩光向暗黑王飞去，将暗黑王包围、包住、包灭。<br>暗黑王就这样消失了——<br>孤身一人回去的妙琳儿，身心已经非常坚定了。为了守护自己的哥哥，她要好好活下去！</p>
+<p>—— <em>节选自《幻琳》结尾</em></p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今夜是舍友生日，我与他探讨了关于梦的一些想法。这里我只是说说我的一些想法。</p>
+<p>他说的是关于“庄周梦蝶”的理论。<br>而我也曾经梦到过梦里面还有梦、在梦里知道我在做梦等情形，也有过陷入梦境，必须强行用自我意识才可以从梦境中跳脱出来的情况。所以，我的梦也是千奇百怪的。</p>
+<p>当然，这里我不想探讨过多梦的理论，我只想在这个庆生的日子里说说我儿时梦中的几个愿景。</p>]]>
+    
+    </summary>
+    
+      <category term="梦" scheme="http://www.xiaoxili.com/tags/%E6%A2%A6/"/>
+    
+      <category term="随笔" scheme="http://www.xiaoxili.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[AngularJS  多字段混合排序]]></title>
+    <link href="http://www.xiaoxili.com/2016/03/31/angularjs-multi-field-sorting/"/>
+    <id>http://www.xiaoxili.com/2016/03/31/angularjs-multi-field-sorting/</id>
+    <published>2016-03-31T11:24:56.000Z</published>
+    <updated>2016-03-31T12:19:50.000Z</updated>
+    <content type="html"><![CDATA[<p>在小溪里最近做的 “<a href="http://www.smartisan.com/support/#/join" target="_blank" rel="external">加入我们</a>” 碰到了多字段中英文排序，需要把多个字段按照先英文后中文的方式进行排序。</p>
+<h2 id="初始字段">初始字段</h2><ul>
+<li>职位名称：中英文，如“Web 前端开发工程师”</li>
+<li>是否热门：new</li>
+<li>工作职能：中英文，如“软件研发”</li>
+<li>工作地点：中英文，如“北京 - 望京”或“北京 - 亦庄”</li>
+<li>职位详情：HTML 文档</li>
+</ul>
+<h2 id="排序具体规则">排序具体规则</h2><p>产品说需要将职位是否热门、职位名称、工作职能、工作地点按照汉语拼音/English 进行排序，相同拼音（字母）开头开头时，按照英文在前面来排，如“Android 工程师”在 “安全工程师”之前。</p>
+<p>产品经理制定的排序具体规则：(减号表示降序)</p>
+<ul>
+<li>PC<ul>
+<li>默认升序：&nbsp;职能 &gt; 热门 &gt; 职位 &gt; 地点</li>
+<li>职位升序：&nbsp;热门 &gt; 职位 &gt; 职能 &gt; 地点</li>
+<li>职位降序：&nbsp;热门 &gt; -职位 &gt; 职能 &gt; 地点</li>
+<li>职能升序：&nbsp;职能 &gt; 热门 &gt; 职位 &gt; 地点</li>
+<li>职能降序：-职能 &gt; 热门 &gt; 职位 &gt; 地点</li>
+<li>地点升序：&nbsp;地点 &gt; 热门 &gt; 职能 &gt; 职位</li>
+<li>地点降序：-地点 &gt; 热门 &gt; 职能 &gt; 职位</li>
+</ul>
+</li>
+<li>移动端<ul>
+<li>默认升序：&nbsp;热门 &gt; 职能 &gt; 职位 &gt; 地点</li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<h3 id="使用_AngularJS_orderBy_排序">使用 AngularJS orderBy 排序</h3><p>因为在项目中使用 AngularJS，所以首先考虑使用 AngularJS 进行排序，这里用到了 <code>$filter(&#39;orderBy&#39;)</code> 进行排序。</p>
+<blockquote>
+<p>文档：<a href="https://docs.angularjs.org/api/ng/filter/orderBy" target="_blank" rel="external">https://docs.angularjs.org/api/ng/filter/orderBy</a></p>
+</blockquote>
+<p>但排序中文时，并没有完全按照拼音排序，好像是按照 中文对应的 Unicode 编码~~~~</p>
+<blockquote>
+<p><strong>来自 <a href="http://www.w3school.com.cn/jsref/jsref_localeCompare.asp" target="_blank" rel="external">w3cschool</a> 的解释</strong><br>把 &lt; 和 &gt; 运算符应用到字符串时，它们只用字符的 Unicode 编码比较字符串，而不考虑当地的排序规则。以这种方法生成的顺序不一定是正确的。例如，在西班牙语中，其中字符 “ch” 通常作为出现在字母 “c” 和 “d” 之间的字符来排序。</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> orderBy = $filter(<span class="string">'orderBy'</span>);</span><br><span class="line"><span class="keyword">var</span> items = [&#123;<span class="string">'title'</span>: <span class="string">'中文'</span>&#125;,&#123;<span class="string">'title'</span>: <span class="string">'英文'</span>&#125;,  &#123;<span class="string">'title'</span>:<span class="string">'汉语'</span>&#125;];</span><br><span class="line"><span class="built_in">console</span>.log(orderBy(items, <span class="string">'title'</span>));</span><br><span class="line"><span class="comment">// output: 中文 汉语 英文</span></span><br></pre></td></tr></table></figure>
+<p>PS：至于说，<code>$filter(&#39;orderBy&#39;)(array, expression, reverse)</code>中的 <code>expression</code> 可以使用 callback，但在网上寻找了很久都没有找到合适的方式写这个function。</p>
+<h3 id="基于_JavaScript_localCompare()_的排序">基于 <code>JavaScript localCompare()</code> 的排序</h3><h4 id="localCompare()_存在的固有问题"><code>localCompare()</code> 存在的固有问题</h4><blockquote>
+<p><strong>来自 <a href="http://www.w3school.com.cn/jsref/jsref_localeCompare.asp" target="_blank" rel="external">w3cschool</a> 的解释</strong><br>用本地特定的顺序来比较两个字符串。<br><strong>说明</strong><br><code>localeCompare()</code> 方法提供的比较字符串的方法，考虑了默认的本地排序规则。ECMAscript 标准并没有规定如何进行本地特定的比较操作，它只规定该函数采用底层操作系统提供的排序规则。</p>
+</blockquote>
+<p>那么，<code>localeCompare()</code> 存在的问题在于它的排序依据是当前电脑系统设置的语言来进行本地字符串的比较。</p>
+<ul>
+<li>当电脑系统语言为中文时，<code>localeCompare()</code> 能返回中英文混合排序的预期结果，只是出现了所有的中文在前，英文都排在后面，此时，想让英文在前，中文在后面就有点难了。</li>
+<li>当电脑系统语言为英文或者其他语言时，<code>localeCompare()</code> 并不能返回预期的中英文混合排序结果。</li>
+</ul>
+<h4 id="多字段排序的方法">多字段排序的方法</h4><p>另外，就算使用 <code>localCompare()</code> 进行中英文混合排序能达到预期效果，在多字段排序上，也得需要用递归的方式进行深入的排序，在定制相应的方法方面，需要自行写 JS 逻辑。</p>
+<p>以下代码来自于我学弟，他的前端博客是 <a href="http://thunf.me/。" target="_blank" rel="external">http://thunf.me/。</a></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">    "<span class="attribute">title</span>": <span class="value"><span class="string">"Smartisan OS产品经理"</span></span>,</span><br><span class="line">    "<span class="attribute">category</span>": <span class="value"><span class="string">"产品经理"</span></span>,</span><br><span class="line">    "<span class="attribute">address</span>": <span class="value"><span class="string">"北京 - 望京"</span></span>,</span><br><span class="line">    "<span class="attribute">status</span>": <span class="value"><span class="string">"new"</span></span>,</span><br><span class="line">    "<span class="attribute">body</span>": <span class="value"><span class="string">"&lt;div class=\"section\"&gt;\n&lt;h3 id=\"-\"&gt;岗位职责&lt;/h3&gt;\n&lt;ol&gt;\n&lt;li&gt;参与 Smartisan OS 的产品设计；&lt;/li&gt;\n&lt;li&gt;设计新产品，新功能，并持续优化和改善现有应用和功能；&lt;/li&gt;\n&lt;li&gt;跟进项目进度和周期，推动产品的顺利上线。&lt;/li&gt;\n&lt;/ol&gt;\n&lt;/div&gt;"</span></span>,</span><br><span class="line">    "<span class="attribute">sort_id</span>": <span class="value"><span class="number">47</span></span><br><span class="line"></span>&#125;]</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sort1</span>(<span class="params">data, order</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (order.length &lt;= <span class="number">0</span>) &#123; <span class="keyword">return</span> data;&#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">var</span> curK = order.slice(<span class="number">0</span>, <span class="number">1</span>),</span><br><span class="line">        tempData = sortByKey(data, curK), </span><br><span class="line">        rData = [],</span><br><span class="line">        start = <span class="number">0</span>, </span><br><span class="line">        end = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; tempData.length - <span class="number">1</span>; i++) &#123;</span><br><span class="line">        end = i;</span><br><span class="line">        <span class="keyword">if</span> (tempData[i][curK].localeCompare(tempData[i+<span class="number">1</span>][curK])) &#123;</span><br><span class="line">            <span class="keyword">var</span> arr = tempData.slice(start, end+<span class="number">1</span>);</span><br><span class="line">            rData.push.apply(rData, sort1(arr, order.slice(<span class="number">1</span>)));</span><br><span class="line">            start = i+<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> arr = tempData.slice(start);</span><br><span class="line">    rData.push.apply(rData, sort1(arr, order.slice(<span class="number">1</span>)));</span><br><span class="line">    <span class="keyword">return</span> rData;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> order = [<span class="string">'category'</span>,<span class="string">'status'</span>, <span class="string">'title'</span>,  <span class="string">'address'</span>];</span><br><span class="line">data = sort1(data, order);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">sortByKey</span>(<span class="params">data, k</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> data.sort(<span class="function"><span class="keyword">function</span>(<span class="params">pre, pos</span>)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (pre[k] &amp;&amp; pre[k].localeCompare) &#123; </span><br><span class="line">            <span class="keyword">return</span> pre[k].localeCompare(pos[k]);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="按照中文拼音排序">按照中文拼音排序</h3><p>先将中文转换成拼音，然后按照字母排序。<br>这种排序直接碰到的一个问题是，中文的可能跟英文的混在一起。如安全工程师（an-quan-gong-cheng-shi）和 Android 工程师（Android-gong-cheng-shi）,就没法很好的区分了。此时，我判断了第一个字是否是拼音，因为职位名称基本上是多种多样的，在第二个字或者字母出现相同的几率不是那么大，用户也不会那么在意。</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">    "<span class="attribute">title</span>": <span class="value"><span class="string">"游戏 SDK 产品经理"</span></span>,</span><br><span class="line">    "<span class="attribute">titleFirstEn</span>": <span class="value"><span class="number">1</span></span>,</span><br><span class="line">    "<span class="attribute">titleSlug</span>": <span class="value"><span class="string">"you-xi-sdk-chan-pin-jing-li"</span></span>,</span><br><span class="line">    "<span class="attribute">titleSlugTo</span>": <span class="value"><span class="string">"you-xi-sdk-pm"</span></span>,</span><br><span class="line">    "<span class="attribute">sort_id</span>": <span class="value"><span class="number">3</span></span>,</span><br><span class="line">    "<span class="attribute">category</span>": <span class="value"><span class="string">"产品"</span></span>,</span><br><span class="line">    "<span class="attribute">categorySlug</span>": <span class="value"><span class="string">"chan-pin"</span></span>,</span><br><span class="line">    "<span class="attribute">address</span>": <span class="value"><span class="string">"北京 - 望京"</span></span>,</span><br><span class="line">    "<span class="attribute">addressSlug</span>": <span class="value"><span class="string">"bj-wangjing"</span></span>,</span><br><span class="line">    "<span class="attribute">status</span>": <span class="value"><span class="string">"new"</span></span>,</span><br><span class="line">    "<span class="attribute">body</span>": <span class="value"><span class="string">"&lt;div class=\"job-block\"&gt;&lt;h3 id=\"section\"&gt;岗位职责：&lt;/h3&gt;\n&lt;ol&gt;\n&lt;li&gt;负责 Smartisan OS 中游戏账号及支付 SDK 的市场分析、用户研究，挖掘需求，持续改进产品功能和用户体验；&lt;/li&gt;\n&lt;li&gt;负责与运营/ BD 团队的日常沟通，收集整理跟 SDK 产品以及游戏运营数据的相关需求；&lt;/li&gt;\n&lt;li&gt;沟通协调研发部门，跟进产品功能实施。&lt;/li&gt;\n&lt;/ol&gt;\n&lt;/div&gt;"</span></span><br><span class="line"></span>&#125;]</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 各个字段 升降序</span></span><br><span class="line"><span class="keyword">var</span> sortArr = &#123;</span><br><span class="line">    <span class="comment">// 默认：热门 职能 职位 地点</span></span><br><span class="line">    defaultAsc: [<span class="string">'status'</span>, <span class="string">'categorySlug'</span>,  <span class="string">'titleFirstEn'</span>,<span class="string">'titleSlug'</span>, <span class="string">'addressSlug'</span>],</span><br><span class="line">    <span class="comment">// 职位升序： 热门 职位 职能 地点</span></span><br><span class="line">    titleAsc: [ <span class="string">'status'</span>, <span class="string">'titleFirstEn'</span>,<span class="string">'titleSlug'</span>, <span class="string">'categorySlug'</span>, <span class="string">'addressSlug'</span>],</span><br><span class="line">    <span class="comment">// 职位降序：热门 -职位 职能 地点</span></span><br><span class="line">    titleDesc: [ <span class="string">'status'</span>,<span class="string">'-titleFirstEn'</span>, <span class="string">'-titleSlug'</span>, <span class="string">'categorySlug'</span>, <span class="string">'addressSlug'</span>]</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 默认排序名</span></span><br><span class="line">$scope.sortName = $scope.isMobileVersion ? <span class="string">'mobileAsc'</span> : <span class="string">'defaultAsc'</span> ;</span><br><span class="line"><span class="comment">// 初始排序 升降序</span></span><br><span class="line">$scope.reverseObj = angular.extend( &#123;&#125;, defaultReverse);</span><br><span class="line"><span class="comment">// 默认选择全部显示</span></span><br><span class="line">$scope.categorySelected = <span class="string">'全部职能'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 排序</span></span><br><span class="line">$scope.changeSort = <span class="function"><span class="keyword">function</span> (<span class="params">sortName</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> sortArrOne;</span><br><span class="line">    <span class="keyword">if</span> ($scope.sortName === sortName) &#123;</span><br><span class="line">        <span class="keyword">var</span> tmpObj = &#123;&#125;;</span><br><span class="line">        tmpObj[sortName] = !$scope.reverseObj[sortName];</span><br><span class="line">        $scope.reverseObj = angular.extend(&#123;&#125;, defaultReverse, tmpObj);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    $scope.sortName = sortName;</span><br><span class="line">    <span class="keyword">if</span> (sortName == <span class="string">'defaultAsc'</span> || sortName == <span class="string">'mobileAsc'</span>) &#123;</span><br><span class="line">        sortArrOne = sortArr[sortName];</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> ($scope.reverseObj[sortName]) &#123;</span><br><span class="line">        sortArrOne = sortArr[sortName + <span class="string">'Asc'</span>];</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        sortArrOne = sortArr[sortName + <span class="string">'Desc'</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    $scope.jobListShow = orderBy($scope.jobList, sortArrOne);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>排序的不完美地方</strong><br>排序时只考虑了首位是中文（拼音）或者是英文的情况，并没有考虑后几位字符的情况。</p>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在小溪里最近做的 “<a href="http://www.smartisan.com/support/#/join">加入我们</a>” 碰到了多字段中英文排序，需要把多个字段按照先英文后中文的方式进行排序。</p>
+<h2 id="初始字段">初始字段</h2><ul>
+<li>职位名称：中英文，如“Web 前端开发工程师”</li>
+<li>是否热门：new</li>
+<li>工作职能：中英文，如“软件研发”</li>
+<li>工作地点：中英文，如“北京 - 望京”或“北京 - 亦庄”</li>
+<li>职位详情：HTML 文档</li>
+</ul>
+<h2 id="排序具体规则">排序具体规则</h2><p>产品说需要将职位是否热门、职位名称、工作职能、工作地点按照汉语拼音/English 进行排序，相同拼音（字母）开头开头时，按照英文在前面来排，如“Android 工程师”在 “安全工程师”之前。</p>
+<p>产品经理制定的排序具体规则：(减号表示降序)</p>
+<ul>
+<li>PC<ul>
+<li>默认升序：&nbsp;职能 &gt; 热门 &gt; 职位 &gt; 地点</li>
+<li>职位升序：&nbsp;热门 &gt; 职位 &gt; 职能 &gt; 地点</li>
+<li>职位降序：&nbsp;热门 &gt; -职位 &gt; 职能 &gt; 地点</li>
+<li>职能升序：&nbsp;职能 &gt; 热门 &gt; 职位 &gt; 地点</li>
+<li>职能降序：-职能 &gt; 热门 &gt; 职位 &gt; 地点</li>
+<li>地点升序：&nbsp;地点 &gt; 热门 &gt; 职能 &gt; 职位</li>
+<li>地点降序：-地点 &gt; 热门 &gt; 职能 &gt; 职位</li>
+</ul>
+</li>
+<li>移动端<ul>
+<li>默认升序：&nbsp;热门 &gt; 职能 &gt; 职位 &gt; 地点</li>
+</ul>
+</li>
+</ul>]]>
+    
+    </summary>
+    
+      <category term="AngularJS" scheme="http://www.xiaoxili.com/tags/AngularJS/"/>
+    
+      <category term="前端" scheme="http://www.xiaoxili.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[移动端 Web 网页调试技巧]]></title>
+    <link href="http://www.xiaoxili.com/2016/02/25/mobile-web-debugging/"/>
+    <id>http://www.xiaoxili.com/2016/02/25/mobile-web-debugging/</id>
+    <published>2016-02-25T02:09:36.000Z</published>
+    <updated>2016-02-25T02:14:14.000Z</updated>
+    <content type="html"><![CDATA[<p>本文主要列举了调试本地网页、查看测试环境网页的各种方法，涵盖了PC、iPad、移动端的调试技巧。<br>本文的不足之处在于，小溪里暂时还没有找到调试位于微信中和安卓各国产浏览器上的网页。</p>
+<a id="more"></a>
+<p><strong>相关设备概念：</strong></p>
+<ul>
+<li><code>PC</code> ：主要指以 Windows 系统为代表的台式机或笔记本，其通常为 1 倍屏</li>
+<li><code>MacBook</code> ：主要指 MacBook Pro Retina，其为 2 倍屏，但 <code>Mackbook Air</code>为 1 倍屏</li>
+<li><code>iPad</code> ：主要指以 iPad Air Retina 和 iPad Mini Retina 为代表的，其为 2 倍屏，且按<code>1024 x 768</code>的“宽高”渲染网页。这里 iPad Pro Retina 是按<code>1366 x 1024</code>的“宽高”渲染网页，在CSS的媒体查询中可以按“笔记本”的断点来设置</li>
+<li>移动端：主要是指手机。<ul>
+<li><code>iPhone 5s</code> 及以下设备：按<code>320</code>的“宽”渲染网页，其为 2 倍屏幕</li>
+<li>常规安卓设备：通常分辨率为<code>1080 x 1920</code>，按<code>360</code>的“宽”渲染网页，其为 3 倍屏幕</li>
+<li><code>iPhone 6</code>：分辨率为<code>750 x 1344</code>，按<code>375</code>的“宽”渲染网页，其为 2 倍屏幕</li>
+<li><code>iPhone 6 plus</code>：实际分辨率为<code>1242 x 2208</code>，按<code>414</code>的“宽”渲染网页，其为 3 倍屏幕。PS：貌似 iPhone 6 plus 实际显示器上渲染后的分辨率为<code>1080 x 1920</code>。</li>
+</ul>
+</li>
+</ul>
+<h2 id="本地开发网页">本地开发网页</h2><blockquote>
+<p>主要针对前端工程师，测试工程师也可以学习使用。</p>
+</blockquote>
+<p>前端在开发移动端网页时，通常使用 <code>localhost</code> 在本地访问网页，在除本机外的设备上都需要换成 <code>IP</code> 访问。</p>
+<ul>
+<li><code>ifconfig</code> ： OS X 系统上查看网络信息的命名，在<code>Macbook Pro</code>上 <code>en0</code> 代表 Wifi，所以可以用<code>ifconfig en0</code>直接查看 Wifi 的信息。</li>
+<li><code>ipconfig</code> ：Windows 系统上查看网络信息的命令。</li>
+</ul>
+<h3 id="Chrome_Emulation_即时“仿真”调试网页"><code>Chrome Emulation</code> 即时“仿真”调试网页</h3><p><code>Chrome Emulation</code> 使用的当前 <code>Chrome</code> 版本的 <code>Webkit</code>或 <code>Blink</code> 渲染的网页，跟 <code>iPhone</code> 或安卓设备上的浏览器上渲染出的网页效果可能存在差异，如安卓 UC 浏览器就存在各种各样的小 bug。</p>
+<ul>
+<li>审查元素：右击或使用快捷键(Mac：command + option + i)</li>
+<li>调出 <code>Emulation</code>：再审查元素后，点击对应的图标或者使用快捷键（Mac：command + option + m）</li>
+</ul>
+<p><strong>吐槽</strong><br>PC或Mac连接安卓设备，想用 <code>Chrome</code> 审查元素查看安卓设备上<code>Chrome</code>浏览器上打开的网页，还需要<code>翻墙</code>，但是却无法查看安卓设备上国产厂商封装的浏览器，如UC浏览器、QQ浏览器。</p>
+<h3 id="Safari_即使调试网页"><code>Safari</code> 即使调试网页</h3><p><strong>“响应式设计模式”</strong><br><code>Safari</code> 在 “开发”菜单中有“响应式设计模式”，里面有常见的 <code>iOS</code> 设备，如 iPhone 4s 、 iPhone 5s 、 iPhone 6s 、iPhone 6s plus 、 iPad mini 4 、 iPad Air 2 、 iPad Pro等。<br>当然，这里的 <code>Safari</code> 的内核应该还是基于当前系统的，与 iOS 设备上各自的 Safari 上可能还存在着差异。<br><strong>超级棒的审查元素</strong><br>在 <code>Safari</code> 上不仅可以调试浏览器本身打开的网页，还能打开下文中提到的 <code>Xcode Simulator</code> 打开的网页，甚至可以打开用 USB 连接的 iPhone/iPad。</p>
+<h3 id="Xcode_Simulator_模拟器"><code>Xcode Simulator</code> 模拟器</h3><p><code>Xcode Simulator</code> 是可以模拟各版本 iOS 系统的各种设备，比 <code>Safari</code>  更棒的地方在于它模拟了各种 iOS 系统上的 Safari，因此可以复现各种奇葩 bug。</p>
+<ul>
+<li>系统涵盖了从 iOS 8.0 到 iOS 9.2 的各个版本、tvOS 、 watchOS</li>
+<li>设备涵盖了 iPhone 、 iPad 、tvOS 、 Apple Watch 、 Apple TV</li>
+</ul>
+<p>小溪里推荐下载 iOS 8.1，因为自带的最新 iOS 模拟器在运行时可能会卡。</p>
+<h2 id="访问测试环境的网页">访问测试环境的网页</h2><blockquote>
+<p>主要针对测试工程师，前端工程师学习起来也是 so easy 的。</p>
+</blockquote>
+<h3 id="静态IP">静态IP</h3><p><strong>原理简析：</strong>静态 IP 其实重心是在移动设备设置特定 DNS，而特定 DNS 是与测试环境有关系的。<br><strong>不足之处：</strong>在iPad 及 移动端上配置静态 IP 后，浏览器可以访问位于测试环境的网页，但微信却只能访问位于正式环境的网页。</p>
+<p><strong>设置步骤：</strong></p>
+<ol>
+<li>记住自动分配的 IP </li>
+<li>设置对应设备的静态 IP  <ul>
+<li>iOS：设置 - 无线局域网 - 选中网络 - IP地址 - 静态</li>
+<li>Android：设置 - WLAN - 长按选中网络 - 修改网络 - 高级 - 静态 IP</li>
+</ul>
+</li>
+</ol>
+<h3 id="网络代理">网络代理</h3><p><strong>原理简析：</strong>在 PC 或Mac 上已经设置成功了测试环境，而移动设备通过网络代理访问 PC 或 Mac 上的网络设置，就可以访问测试环境了，无论是浏览器还是微信。</p>
+<p><strong>设置代理的常见方式（具体请自行百度）</strong></p>
+<ul>
+<li>Fiddler 代理，只适用于windows系统</li>
+<li>Charles 代理，适用于OS X系统（即Mac电脑）</li>
+<li>微信web开发者工具（以下简称“微信工具”），适用于windows和Mac</li>
+</ul>
+<h4 id="微信web开发者工具">微信web开发者工具</h4><p><a href="http://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html]" target="_blank" rel="external">官网地址</a></p>
+<blockquote>
+<ul>
+<li>使用自己的微信号来调试微信网页授权</li>
+<li>调试、检验页面的 JS-SDK 相关功能与权限，模拟大部分 SDK 的输入和输出</li>
+<li>使用基于 weinre 的移动调试功能</li>
+<li>利用集成的 Chrome DevTools 协助开发</li>
+</ul>
+</blockquote>
+<p><strong>移动调试</strong><br>可以在微信中查看位于测试环境的网页</p>
+<ol>
+<li>确保本机和移动设备在同一局域网网段中</li>
+<li>将移动设备的网络代理配置到：<a href="http://\*\*.\*\*.\*\*.\*\*（" target="_blank" rel="external">http://\*\*.\*\*.\*\*.\*\*（</a> PC或Mac 的IP），端口： 9973<ul>
+<li>iOS： 设置 - 无线局域网 - 选中网络 - HTTP代理手动</li>
+<li>Android： 设置 - WLAN - 长按选中网络 - 修改网络 - 高级 - 代理设置 - 手动</li>
+</ul>
+</li>
+<li>重启微信，并在微信中访问网页</li>
+</ol>
+<p>PS：在小溪里的电脑上并没有像官网宣传的那样可以审查元素</p>
+<p>在小溪里所在的公司里面，设置网络代理的步骤：</p>
+<ol>
+<li>连接 Wifi</li>
+<li>弹出验证窗口，输入公司账户</li>
+<li>设置网络代理</li>
+</ol>
+<p><strong>PS：</strong>连接 Wifi后，要确保没有设置网络代理，这样才可以弹出验证窗口。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>本文主要列举了调试本地网页、查看测试环境网页的各种方法，涵盖了PC、iPad、移动端的调试技巧。<br>本文的不足之处在于，小溪里暂时还没有找到调试位于微信中和安卓各国产浏览器上的网页。</p>]]>
+    
+    </summary>
+    
+      <category term="移动端" scheme="http://www.xiaoxili.com/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
+    
+      <category term="前端" scheme="http://www.xiaoxili.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[响应式Web设计——断点设计]]></title>
+    <link href="http://www.xiaoxili.com/2015/06/03/break-of-responsive-web-design/"/>
+    <id>http://www.xiaoxili.com/2015/06/03/break-of-responsive-web-design/</id>
+    <published>2015-06-03T03:27:04.000Z</published>
+    <updated>2015-08-02T01:01:02.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="前言">前言</h2><p>小溪里从2013年开始接触响应式Web设计，前后做过多个响应式网站，对 CSS3 媒体查询中断点还是有一点理解的。</p>
+<p>本文重点探讨的是一个响应式网站的需求：</p>
+<ul>
+<li>通用型 CSS3 Media Query，尽可能短而简单，容易扩展；</li>
+<li>在手机上等小屏幕设备上显示的是Mobile版，而在包括iPad、PC端在内的中大型屏幕上要显示的PC版；</li>
+<li>不借助 JavaScript 的 UserAgent 判断设备或浏览器；</li>
+<li>咱不考虑 Window Phone 和 Surface Pro，事实上小溪里手上也没这两款测试设备。</li>
+</ul>
+<a id="more"></a>
+<h2 id="断点：区间的具体分界点">断点：区间的具体分界点</h2><p>根据场景、设备选择常见的断点，如 mobile (320px、360px、414px、640px、736px)、iPad (768px、1024px)、PC (1280px、1440px、1600px、1920px) 等。</p>
+<p>又考虑到主要检测移动设备，我又做了非常常见的三种 Mobile 分辨率。</p>
+<table>
+<thead>
+<tr>
+<th>设备</th>
+<th style="text-align:center">屏幕实际显示宽高</th>
+<th style="text-align:right">渲染宽度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>iPhone 5s</td>
+<td style="text-align:center">640 * 1136</td>
+<td style="text-align:right">320 * 568</td>
+</tr>
+<tr>
+<td>某手机</td>
+<td style="text-align:center">1080 * 1920</td>
+<td style="text-align:right">360 * 640</td>
+</tr>
+<tr>
+<td>iPhone 6 plus</td>
+<td style="text-align:center">1080 <em> 1920 ( 1242 </em> 2208)</td>
+<td style="text-align:right">414 * 736</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>参考：   <a href="http://tongji.baidu.com/data/screen" target="_blank" rel="external">百度 分辨率使用情况</a></p>
+</blockquote>
+<h3 id="有经典吗？">有经典吗？</h3><p>小溪里最开始考虑的去看一下 <a href="http://www.apple.com/cn/" target="_blank" rel="external">苹果官网</a> 的断点设计，但未能满足我的要求。因为苹果官网确实确实在所有的iPhone设备上都是Mobile版，在iPad和PC上为PC版，但是在安卓1080p的手机上，竖屏时，UC和QQ浏览器上显示的是PC版。</p>
+<figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="annotation">@media</span> only <span class="function">screen <span class="title">and</span> <span class="params">(max-device-width: <span class="number">767</span>px)</span></span>&#123;&#125;</span><br></pre></td></tr></table></figure>
+<h5 id="DEMO_-_苹果官网"><a href="http://www.apple.com/cn/" target="_blank" rel="external">DEMO - 苹果官网</a></h5><p>请使用安卓系统1080p或更大分辨率的手机，保证其竖屏状态，打开UC或QQ浏览器上，打开的苹果官网会显示 PC 版。另外，这个手机处于横屏状态时，也会 PC 版。<br>原因猜测：可能是安卓1080p竖屏时，UC给出<code>width</code>是 360，但<code>device-width</code>却是 1080，但是在iPhone6 plus上UC的 <code>width</code>和<code>device-width</code>都是 736。</p>
+<h5 id="DEMO_-_验证width和device-width"><a href="/assets/2015-06-03-braek-of-design/">DEMO - 验证width和device-width</a></h5><p>测试设备为某1080P的安卓手机和iPhone 5c</p>
+<table>
+<thead>
+<tr>
+<th>···</th>
+<th style="text-align:center">document.body.offsetWidth</th>
+<th style="text-align:center">window.screen.width</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>安卓UC</td>
+<td style="text-align:center">360</td>
+<td style="text-align:center">1080</td>
+</tr>
+<tr>
+<td>安卓 Chrome</td>
+<td style="text-align:center">360</td>
+<td style="text-align:center">360</td>
+</tr>
+<tr>
+<td>iPhone UC</td>
+<td style="text-align:center">360</td>
+<td style="text-align:center">360</td>
+</tr>
+<tr>
+<td>iPhone Safari</td>
+<td style="text-align:center">320</td>
+<td style="text-align:center">320</td>
+</tr>
+</tbody>
+</table>
+<h3 id="我要的···">我要的···</h3><p>而小溪里想要的是PC和PAD上显示PC固定布局，手机端才显示移动端响应式。</p>
+<h4 id="max-width写法"><code>max-width</code>写法</h4><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="annotation">@media</span> <span class="function">screen <span class="title">and</span> <span class="params">(max-width: <span class="number">736</span>px)</span> </span>&#123; &#125;</span><br></pre></td></tr></table></figure>
+<p><em>bug</em></p>
+<p>无论pc和手机都会显示响应式，不满足要求,因为 736px为iPhone6 plus横屏渲染宽度，但在pc上浏览器缩小到736px时也有效。</p>
+<h5 id="测试：DEMO_-_新浪视频">测试：<a href="http://www.apple.com/cn/" target="_blank" rel="external">DEMO - 新浪视频</a></h5><p>在PC上，将浏览器的宽度拖到 1024px 、768px 、640px 、480px 、360px 、320px ，都产生了响应式的变化，而非小溪里所希望的PC固定布局的情况。</p>
+<h4 id="max-device-width_写法"><code>max-device-width</code> 写法</h4><figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@media screen <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-width</span>: <span class="number">736</span>px) <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-device</span><span class="attribute">-width</span>: <span class="number">1920</span>px) &#123; &#125;</span><br></pre></td></tr></table></figure>
+<p><em>bug</em><br>这种写法在小于1920px屏幕上也会显示响应式，不满足要求。</p>
+<h4 id="orientation_写法"><code>orientation</code> 写法</h4><p>原理：在移动设备上，竖屏状态下且浏览器渲染宽度为414px，或者横屏状态下且浏览器渲染宽度为736px时，都出发该media query<br><figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">@media screen <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-width</span>: <span class="number">414</span>px) <span class="literal">and</span> (orientation:portrait),</span><br><span class="line">       screen <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-width</span>: <span class="number">736</span>px) <span class="literal">and</span> (orientation:landscape) &#123; &#125;</span><br></pre></td></tr></table></figure></p>
+<p><em>Bug</em></p>
+<ul>
+<li>PC Chrome 拖动宽高为 400*800 时会触发<code>(max-width: 414px) and (orientation:portrait)</code>，不符合要求；</li>
+<li>PC Chrome 拖动宽高为 600*500 时会触发<code>(max-width: 736px) and (orientation:landscape)</code>，不符合要求。</li>
+</ul>
+<h4 id="max-device-width_和_orientation_写法"><code>max-device-width</code> 和 <code>orientation</code> 写法</h4><p>原理：横竖屏状态和设备宽都加上吧。</p>
+<figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">@media screen <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-width</span>: <span class="number">414</span>px) <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-device</span><span class="attribute">-width</span>: <span class="number">1080</span>px) <span class="literal">and</span> (orientation:portrait),</span><br><span class="line">       screen <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-width</span>: <span class="number">736</span>px) <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-device</span><span class="attribute">-width</span>: <span class="number">1920</span>px) <span class="literal">and</span> (orientation:landscape) &#123; &#125;</span><br></pre></td></tr></table></figure>
+<p><em>bug</em></p>
+<p>在 MacBook Pro(1280 <em> 800 Retina 2倍屏)和 公司台式机(1920 </em> 1200) 都符合小于1920设备宽的横屏设备宽，那么735 * 734以下（宽比高的数值更大，符合横屏条件）就会显示响应式。</p>
+<p>当然上面的 bug 出现的情况较小，我开始就用这种方案了。但我们组长表示不满意。</p>
+<ul>
+<li>太长了，不好扩展</li>
+<li>加了 1080px 和 1920px 两个设备宽的限制条件，那以后更大分辨率的手机，就不好整了。</li>
+</ul>
+<h4 id="max-device-width_和_设备像素比"><code>max-device-width</code> 和 <code>设备像素比</code></h4><p>原理：在 <code>max-device-width: 736px</code> 的苹果设备上和 <code>-webkit-min-device-pixel-ratio: 2.0</code> 的移动设备上会显示响应式。</p>
+<p>当然，在文章开头我就提出，我没有考虑 window phone，所以，我大胆用<code>-webkit-min-device-pixel-ratio: 2.0</code>。</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">@media screen <span class="operator">and</span> (<span class="built_in">max</span>-width: <span class="number">736</span>px) <span class="operator">and</span> (<span class="built_in">max</span>-device-width: <span class="number">736</span>px),</span><br><span class="line">screen <span class="operator">and</span> (<span class="built_in">max</span>-width: <span class="number">736</span>px) <span class="operator">and</span> (-webkit-<span class="built_in">min</span>-device-pixel-ratio: <span class="number">2.0</span>)  &#123; &#125;</span><br></pre></td></tr></table></figure>
+<p><em>bug</em><br>在 MacBook pro(1280 * 800 2倍屏）上拖动Chrome宽变为735px时， 会触发<code>-webkit-min-device-pixel-ratio: 2.0</code>，不符合要求。</p>
+<h2 id="对响应式布局的理解">对响应式布局的理解</h2><h3 id="响应式网页的概念">响应式网页的概念</h3><p><a href="http://baike.baidu.com/link?url=7CgjLHRXckG2yNb1mMxfqjY5O8icZvy4WsHVNIpwJFpPdIT-QI9nVmNHWkduAwZVDEvOrqJs53_bFjLKrTT0Ia" target="_blank" rel="external">百度百科</a>     <a href="http://ued.sina.com.cn/?p=1406" target="_blank" rel="external">漫谈响应式设计</a></p>
+<ul>
+<li>多设备</li>
+<li>多浏览器宽度</li>
+<li>横竖屏切换</li>
+</ul>
+<p>我的理解：通过CSS3媒体查询，在某一宽度区间内显示固定“变化”布局，响应各种区间的布局方案。示例：<a href="http://www.microsoft.com/zh-cn/default.aspx" target="_blank" rel="external">微软</a>  <a href="http://www.apple.com/cn/" target="_blank" rel="external">苹果</a></p>
+<p>断点的另一种理解：特定的浏览器宽度下，页面元素出现效果不佳时添加断点。<a href="http://www.microsoft.com/zh-cn/default.aspx" target="_blank" rel="external">微软</a></p>
+<p>下方的这个适配不是很好。<br><img src="http://devconf.qiniudn.com/microsoft-gallery.png" alt=""></p>
+<figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* → 1列 */</span>     @media screen <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-width</span>: <span class="number">539</span>px)&#123; &#125;</span><br><span class="line"><span class="comment">/* → 2列 */</span>     @media screen <span class="literal">and</span> (<span class="keyword">max</span><span class="attribute">-width</span>: <span class="number">992</span>px) <span class="literal">and</span> (<span class="keyword">min</span><span class="attribute">-width</span>: <span class="number">540</span>px) &#123; &#125;</span><br><span class="line"><span class="comment">/* → 4列 */</span>     @media screen <span class="literal">and</span> (<span class="keyword">min</span><span class="attribute">-width</span>: <span class="number">992</span>px) &#123; &#125;</span><br></pre></td></tr></table></figure>
+<h2 id="相关文章">相关文章</h2><p>《<a href="http://ued.sina.com.cn/?p=1406" target="_blank" rel="external">漫谈响应式设计</a>》是之前同事写的对响应式 Web 设计的理解，其中对 CSS3 媒体查询的理解较为精辟。<br>《<a href="http://www.cnblogs.com/tugenhua0707/p/4147569.html" target="_blank" rel="external">响应性web设计实战总结</a>》里面详细讲解了响应式 Web 设计、CSS3媒体查询的基础支持。</p>
+<p>《<a href="http://item.jd.com/1520263143.html" title="移动Web手册（双色）移动Web第一书 9787121258213" target="_blank" rel="external">移动Web手册</a>》一书也对响应式Web设计作了补充。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="前言">前言</h2><p>小溪里从2013年开始接触响应式Web设计，前后做过多个响应式网站，对 CSS3 媒体查询中断点还是有一点理解的。</p>
+<p>本文重点探讨的是一个响应式网站的需求：</p>
+<ul>
+<li>通用型 CSS3 Media Query，尽可能短而简单，容易扩展；</li>
+<li>在手机上等小屏幕设备上显示的是Mobile版，而在包括iPad、PC端在内的中大型屏幕上要显示的PC版；</li>
+<li>不借助 JavaScript 的 UserAgent 判断设备或浏览器；</li>
+<li>咱不考虑 Window Phone 和 Surface Pro，事实上小溪里手上也没这两款测试设备。</li>
+</ul>]]>
+    
+    </summary>
+    
+      <category term="响应式web" scheme="http://www.xiaoxili.com/tags/%E5%93%8D%E5%BA%94%E5%BC%8Fweb/"/>
+    
+      <category term="前端" scheme="http://www.xiaoxili.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[从PC Web到移动 Web，我踩过的坑]]></title>
+    <link href="http://www.xiaoxili.com/2015/06/03/pc-to-mobile/"/>
+    <id>http://www.xiaoxili.com/2015/06/03/pc-to-mobile/</id>
+    <published>2015-06-03T03:16:15.000Z</published>
+    <updated>2015-06-03T03:42:25.000Z</updated>
+    <content type="html"><![CDATA[<p>我在《<a href="http://www.xiaoxili.com/2015/06/03/break-of-responsive-web-design/">响应式Web设计——断点设计</a>》一文中简单阐述了我对断点的理解及运用。</p>
+<h2 id="快速审查">快速审查</h2><h3 id="问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白-">问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白.</h3><p>示例： <a href="http://www.techxue.com/" target="_blank" rel="external">互联网分析沙龙</a></p>
+<a id="more"></a>
+<p>此处有两张图</p>
+<p><img src="http://devconf.qiniudn.com/list-more.png" alt=""><br><img src="http://devconf.qiniudn.com/51cto-pic.png" alt=""></p>
+<p>长标题，可以单行截取。示例：<a href="http://www.51cto.com/" target="_blank" rel="external">51CTO</a></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">a</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">display</span>:<span class="value"> block</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">word-wrap</span>:<span class="value"> normal</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">text-overflow</span>:<span class="value"> ellipsis</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">white-space</span>:<span class="value"> nowrap</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">overflow</span>:<span class="value"> hidden</span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<h3 id="问题2：写死高度可能使内容超出模块范围，出现截取或者错版的问题。">问题2：写死高度可能使内容超出模块范围，出现截取或者错版的问题。</h3><p>屏幕宽度变化时，如从360px到320px时。PS：在UC上float有bug<br>图片<br><img src="http://devconf.qiniudn.com/height-float.png" alt=""></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.am-list-news-hd</span> <span class="tag">h2</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">font-size</span>:<span class="value"> <span class="number">1.6rem</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">2rem</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">line-height</span>:<span class="value"> <span class="number">2rem</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 导致uc上float不正常的原因 示例:float.html*/</span></span><br><span class="line"><span class="rule"><span class="attribute">text-rendering</span>:<span class="value"> optimizeLegibility</span></span>;</span><br></pre></td></tr></table></figure>
+<h3 id="问题3：浮动容易导致错版。">问题3：浮动容易导致错版。</h3><p><img src="http://devconf.qiniudn.com/51cto-float1.png" alt=""><br><img src="http://devconf.qiniudn.com/51cto-float.png" alt=""></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.col-a</span> <span class="class">.area</span> &gt; <span class="tag">a</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">80px</span></span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">overflow</span>:<span class="value"> hidden</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;</span><br><span class="line">	<span class="rule"><span class="attribute">margin-right</span>:<span class="value"> <span class="number">5px</span></span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line">	</span><br><span class="line">		</span><br><span class="line"><span class="class">.col-a</span> <span class="class">.area</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">padding</span>:<span class="value"> <span class="number">5px</span> <span class="number">10px</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">border-bottom</span>:<span class="value"> <span class="number">1px</span> dashed <span class="hexcolor">#bfbfbf</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">overflow</span>:<span class="value"> hidden</span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<h3 id="问题5：按钮、图片使用一致的对齐方式。">问题5：按钮、图片使用一致的对齐方式。</h3><p>竖屏看起来像水平居中，那么横屏时也要是水平居中的。<br><img src="http://devconf.qiniudn.com/align-left.png" alt=""><br><img src="http://devconf.qiniudn.com/align-left2.png" alt=""></p>
+<h2 id="奇思淫巧">奇思淫巧</h2><h3 id="NO1:_基于表格布局的垂直居中。">NO1: 基于表格布局的垂直居中。</h3><p>1、高度一致；2：轻松实现垂直居中</p>
+<p>此处有一张图片<br><img src="http://devconf.qiniudn.com/height-float.png" alt=""></p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"list"</span>&gt;</span><br><span class="line">	&lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"line"</span>&gt;</span><br><span class="line">		&lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"pic"</span>&gt;&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">		&lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"title"</span>&gt;&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">	&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">	&lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"line"</span>&gt;</span><br><span class="line">		&lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"pic"</span>&gt;&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">		&lt;<span class="keyword">div</span> <span class="type">class</span>=<span class="string">"title"</span>&gt;&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">	&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">&lt;/<span class="keyword">div</span>&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">list</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">display</span>:<span class="value"> table</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="class">.line</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">display</span>:<span class="value">table-row</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="class">.pic</span>, <span class="class">.title</span> <span class="rules">&#123;</span><br><span class="line">	<span class="rule"><span class="attribute">display</span>:<span class="value">table-cell</span></span>;<span class="rule"><span class="attribute">vertical-align</span>:<span class="value"> middle</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="class">.pic</span> <span class="rules">&#123;</span><br><span class="line">	<span class="comment">/*左边固定宽度，右边宽度自适应*/</span></span><br><span class="line">	<span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">120px</span></span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure>
+<h3 id="NO2:_计算间距">NO2: 计算间距</h3><ul>
+<li>情况一：看几倍图，看font-size，看line-height，看padding和margin。</li>
+<li>情况二：缩放式，间距也应当设置成百分比形式的</li>
+<li>情况三：360px到320px可能导致换行，此时行距也会导致间距，应适时改变间距设置</li>
+</ul>
+<h3 id="NO3:_手机上_1PX_边框">NO3: 手机上 1PX 边框</h3><p>1像素边框，在2倍屏幕上为2“占位”，3倍屏上为3“占位”，但设计师就要1“占位”</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.content</span> <span class="tag">h1</span><span class="pseudo">:after</span>,</span><br><span class="line"><span class="class">.content</span> <span class="tag">h2</span><span class="pseudo">:after</span> <span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">border-top</span>:<span class="value"> <span class="number">1px</span> solid <span class="hexcolor">#bfbfbf</span></span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">content</span>:<span class="value"> <span class="string">' '</span></span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">display</span>:<span class="value"> block</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">100%</span></span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">position</span>:<span class="value"> absolute</span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">left</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">bottom</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">    <span class="rule"><span class="attribute">-webkit-transform-origin</span>:<span class="value"> left bottom</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"><span class="comment">/* Retina 适配 */</span></span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> only screen and (-webkit-min-device-pixel-ratio: <span class="number">2.0</span>),</span><br><span class="line">only screen and (min--moz-device-pixel-ratio: <span class="number">2.0</span>),</span><br><span class="line">only screen and (-o-min-device-pixel-ratio: <span class="number">200</span>/<span class="number">100</span>),</span><br><span class="line">only screen and (min-device-pixel-ratio: <span class="number">2.0</span>) </span>&#123;</span><br><span class="line">    <span class="class">.content</span> <span class="tag">h1</span><span class="pseudo">:after</span>,</span><br><span class="line">    <span class="class">.content</span> <span class="tag">h2</span><span class="pseudo">:after</span> <span class="rules">&#123;</span><br><span class="line">        <span class="rule"><span class="attribute">-webkit-transform</span>:<span class="value"> <span class="function">scaleY</span>(<span class="number">0.5</span>)</span></span>;</span><br><span class="line">        <span class="rule"><span class="attribute">transform</span>:<span class="value"> <span class="function">scaleY</span>(<span class="number">0.5</span>)</span></span>;</span><br><span class="line">    &#125;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 三倍屏 适配 */</span></span><br><span class="line"><span class="at_rule">@<span class="keyword">media</span> only screen and (-webkit-min-device-pixel-ratio: <span class="number">2.5</span>),</span><br><span class="line">only screen and (min--moz-device-pixel-ratio: <span class="number">2.5</span>),</span><br><span class="line">only screen and (-o-min-device-pixel-ratio: <span class="number">250</span>/<span class="number">100</span>),</span><br><span class="line">only screen and (min-device-pixel-ratio: <span class="number">2.5</span>) </span>&#123;</span><br><span class="line">    <span class="class">.content</span> <span class="tag">h1</span><span class="pseudo">:after</span>,</span><br><span class="line">    <span class="class">.content</span> <span class="tag">h2</span><span class="pseudo">:after</span> <span class="rules">&#123;</span><br><span class="line">        <span class="rule"><span class="attribute">-webkit-transform</span>:<span class="value"> <span class="function">scaleY</span>(<span class="number">0.33333334</span>)</span></span>;</span><br><span class="line">        <span class="rule"><span class="attribute">transform</span>:<span class="value"> <span class="function">scaleY</span>(<span class="number">0.33333334</span>)</span></span>;</span><br><span class="line">    &#125;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="字体_我是这么认为的~">字体 我是这么认为的~</h2><p><a href="http://www.howsci.com/diffirence-of-px-em-rem.html" target="_blank" rel="external">px em rem 三者的区别</a></p>
+<p>不建议使用小于12px的字体，因为在安卓chrome上不支持</p>
+<h3 id="知名互联网公司_移动端字体大小">知名互联网公司 移动端字体大小</h3><table>
+<thead>
+<tr>
+<th>类型</th>
+<th style="text-align:center">基准字体</th>
+<th>字体区间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>国外官网类</td>
+<td style="text-align:center">18~16px</td>
+<td>大字体 ≈30px<br> 标题字体 22px~18px<br>正文字体 18~14px<br>底部最小字体 14~12px</td>
+</tr>
+<tr>
+<td>网购类</td>
+<td style="text-align:center">14~12px</td>
+<td>标题 16px<br>正文 14~12px<br>底部最小字体 12px</td>
+</tr>
+<tr>
+<td>国内媒体类</td>
+<td style="text-align:center">16px</td>
+<td>标题 22px~18px<br>正文 18~16px<br>附加信息 12px<br>底部最小字体 12px</td>
+</tr>
+</tbody>
+</table>
+<p><em>行高为 1.3、1.35、1.45、1.5</em></p>
+<h2 id="表单区域">表单区域</h2><h3 id="搜索区域内的输入框和搜索按钮在横竖屏切换占满整个屏幕，并且UI显示效果一致。">搜索区域内的输入框和搜索按钮在横竖屏切换占满整个屏幕，并且UI显示效果一致。</h3><p>示例: search-input.html 此乃右边固定、左边自适应的写法之一</p>
+<p><img src="http://devconf.qiniudn.com/search-320.png" alt=""><br><img src="http://devconf.qiniudn.com/search-568.png" alt=""></p>
+<h3 id="布局类的表单样式在苹果、安卓手机显示效果要一致。">布局类的表单样式在苹果、安卓手机显示效果要一致。</h3><p><img src="http://devconf.qiniudn.com/input-51cto-iphone.png" alt=""><br><img src="http://devconf.qiniudn.com/input-51cto-android.png" alt=""></p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"> <span class="comment">/* 修复代码 */</span></span><br><span class="line"><span class="tag">input</span> &#123;</span><br><span class="line">	<span class="attribute">outline</span>: none; <span class="comment">//清除input外边框</span></span><br><span class="line">	<span class="attribute">-webkit-appearance</span>: none; <span class="comment">// 清除iPhone上默认的样式，如圆角（待确认）</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* 保证安卓手机和苹果手机样式一致 */</span></span><br><span class="line"><span class="class">.inputtext</span>&#123;</span><br><span class="line">    <span class="attribute">display</span>: block;  <span class="comment">//变成块元素消除默认的上下外边距 某些时候有用</span></span><br><span class="line">    <span class="attribute">width</span>: <span class="number">100%</span>; <span class="comment">//特定的时候用</span></span><br><span class="line">    <span class="attribute">height</span>: <span class="number">30px</span>; <span class="comment">//严格要求的时候用</span></span><br><span class="line">    <span class="comment">//需要设置  `边距、边框、背景、圆角、行高`</span></span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="hexcolor">#e1e1e1</span>; <span class="comment">//背景颜色不一致？</span></span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">5px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span>; <span class="comment">// 圆角矩形也必须写出</span></span><br><span class="line">    <span class="attribute">border</span>: none;</span><br><span class="line">    <span class="attribute">line-height</span>: <span class="number">30px</span>; <span class="comment">//与高度保持一致</span></span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <summary type="html">
+    <![CDATA[<p>我在《<a href="http://www.xiaoxili.com/2015/06/03/break-of-responsive-web-design/">响应式Web设计——断点设计</a>》一文中简单阐述了我对断点的理解及运用。</p>
+<h2 id="快速审查">快速审查</h2><h3 id="问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白-">问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白.</h3><p>示例： <a href="http://www.techxue.com/">互联网分析沙龙</a></p>]]>
+    
+    </summary>
+    
+      <category term="移动Web" scheme="http://www.xiaoxili.com/tags/%E7%A7%BB%E5%8A%A8Web/"/>
+    
+      <category term="前端" scheme="http://www.xiaoxili.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[TweenMax 动画研究]]></title>
+    <link href="http://www.xiaoxili.com/2015/06/02/tweenmax-animation/"/>
+    <id>http://www.xiaoxili.com/2015/06/02/tweenmax-animation/</id>
+    <published>2015-06-02T08:48:41.000Z</published>
+    <updated>2015-06-02T10:57:46.000Z</updated>
+    <content type="html"><![CDATA[<p>最近 Html5 动画非常火，小溪里也在某一个网页中发现了它的踪迹。<a href="http://www.smartisan.com/wechat/anniversary.html" title="真正的光芒，需要一点点时间" target="_blank" rel="external">DEMO</a>（建议在手机微信或者iPad微信上观看）</p>
+<p>我在帝都的前端朋友也有问我，这种Html5动画怎么做。这里我把我的研究成果在这里展示一下。</p>
+<p>我的这个 HTML5 动画研究是基于 Tween 的高级版 <a href="http://greensock.com/docs/#/HTML5/GSAP/TweenMax/" target="_blank" rel="external">TweenMax</a> 来做的。</p>
+<a id="more"></a>
+<blockquote>
+<p><strong>Tween 动画</strong> 又称“补间动画”、“中间动画”，最早接触Tween类是在学习Flash时候，使用ActionScript做动画的时候，使用过类Tween。<br>—<a href="http://www.cnblogs.com/tianshuai11/archive/2012/04/20/2477167.html" target="_blank" rel="external">【Android】两种动画介绍(Tween动画、Frame动画)</a></p>
+</blockquote>
+<h2 id="TweenMax-js_介绍">TweenMax.js 介绍</h2><blockquote>
+<p>TweenMax 建立在 TweenLite 核心类以及它的大哥TweenFilterLite 基础之上，它为Tween 家族增加了新的受欢迎的功能（尽管只是锦上添花），从而使家族更加的壮大，比如贝赛尔缓动、暂停/继续能力，简便的连续缓、16进制颜色缓动、以及更多的内容。<br>—<a href="http://baike.baidu.com/link?url=HURhQ6Nw19OQi2dgH6doi0GanMfyQIDHHs5HpWrdkIuKrr8t8WoY-DyTy7y7nHfPUbUe8Ywf58xgKwkJ1ez-Oa" target="_blank" rel="external">百度百科 tweenmax</a></p>
+</blockquote>
+<p>当然，TweenLite 更加轻量级，需要调用更多的轻量级 js，只是小溪里有些偷懒，就直接用了TweenMax。</p>
+<p><a href="http://greensock.com/" target="_blank" rel="external">TweenMax.js 官网</a> （需翻墙）<br><a href="http://greensock.com/docs/#/HTML5/GSAP/TweenMax/" target="_blank" rel="external">TweenMax.js Docs</a>（需翻墙）<br><a href="http://blog.5d.cn/user12/dzxz/200809/500547.html" target="_blank" rel="external">TweenMax.js 参数说明 中文翻译</a></p>
+<h2 id="TweenMax_与_CSS3_动画">TweenMax 与 CSS3 动画</h2><p>小溪里觉得，CSS3 动画适合写一些逻辑比较少、自动循环的小动画，TweenMax.js 是用js来控制CSS的变化，适合写逻辑复杂的动画。</p>
+<p>这里奉上使用TweenMax制作的《哈尔的移动城堡》动画<br><a href="http://greensock.com/?post_type=example&amp;p=5966" target="_blank" rel="external">Howl’s Moving Castle</a>（需翻墙）</p>
+<h2 id="附上_Demo_及部分代码">附上 Demo 及部分代码</h2><p><a href="/assets/2015-06-02-tweenmax-demo1/">TweenMax Demo 网址</a><br>PS： DEMO 效果差强人意。建议在Chrome 浏览器的手机模拟器中查看。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 动画的js</span></span><br><span class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 获取 DOM 节点</span></span><br><span class="line">    <span class="keyword">var</span> bgAura1 = $(<span class="string">'.bg_aura_1'</span>);</span><br><span class="line">    <span class="keyword">var</span> bgAura2 = $(<span class="string">'.bg_aura_2'</span>);</span><br><span class="line">    <span class="keyword">var</span> bgAura3 = $(<span class="string">'.bg_aura_3'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span><br><span class="line"></span><br><span class="line">auraAni1</span><br><span class="line">obj         DOM 节点</span><br><span class="line">maxScale    缩放最大值</span><br><span class="line">minScale    缩放最小值</span><br><span class="line">duration    动画时间</span><br><span class="line">delay       延迟时间</span><br><span class="line">*/</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">var</span>  auraAni1 = <span class="function"><span class="keyword">function</span> (<span class="params">obj, maxScale, minScale, duration, delay</span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// step1 完成第一步加载，onComplete开始执行 step2</span></span><br><span class="line">        <span class="keyword">var</span> step1 = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">            TweenMax.to(obj, duration * <span class="number">0.55</span>, &#123;</span><br><span class="line">                x: -<span class="number">15</span>,</span><br><span class="line">                scaleX: maxScale,</span><br><span class="line">                scaleY: maxScale,</span><br><span class="line">                delay: delay,</span><br><span class="line">                onComplete: step2</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125;;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// step2 从一个小的起始状态后执行 step3</span></span><br><span class="line">        <span class="keyword">var</span> step2 = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">            TweenMax.fromTo(obj, duration * <span class="number">0.45</span>, &#123;</span><br><span class="line">                x: <span class="number">10</span>,</span><br><span class="line">                opacity: <span class="number">0.2</span>,</span><br><span class="line">                scaleX: minScale,</span><br><span class="line">                scaleY: minScale,</span><br><span class="line">                delay: <span class="number">0.2</span></span><br><span class="line">            &#125;, &#123;</span><br><span class="line">                x: <span class="number">0</span>,</span><br><span class="line">                opacity: <span class="number">1</span>,</span><br><span class="line">                scaleX: (maxScale - minScale)/<span class="number">3</span>,</span><br><span class="line">                scaleY: (maxScale -minScale)/<span class="number">3</span>,</span><br><span class="line">                <span class="comment">// delay: 0.2,</span></span><br><span class="line">                ease:Back.ease,</span><br><span class="line">                onComplete: step3</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125;;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// step3 从一个小的起始状态后执行 step2</span></span><br><span class="line">        <span class="keyword">var</span> step3 = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">            TweenMax.fromTo(obj, duration * <span class="number">0.55</span>, &#123;</span><br><span class="line">                x: <span class="number">0</span>,</span><br><span class="line">                opacity: <span class="number">1</span>,</span><br><span class="line">                scaleX: (maxScale - minScale)/<span class="number">3</span>,</span><br><span class="line">                scaleY: (maxScale -minScale)/<span class="number">3</span>,</span><br><span class="line">                <span class="comment">// delay: 0.2</span></span><br><span class="line">            &#125;, &#123;</span><br><span class="line">                x: -<span class="number">15</span>,</span><br><span class="line">                opacity: <span class="number">0.05</span>,</span><br><span class="line">                scaleX: maxScale,</span><br><span class="line">                scaleY: maxScale,</span><br><span class="line">                delay: <span class="number">0.2</span>,</span><br><span class="line">                ease:Back.ease,</span><br><span class="line">                onComplete: step2</span><br><span class="line">            &#125;);</span><br><span class="line">        &#125;;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            animate: step1</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    setTimeout(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 调用参数且执行animate()</span></span><br><span class="line">        auraAni1(bgAura1, <span class="number">3.6</span>, <span class="number">0.1</span>, <span class="number">1.8</span>, <span class="number">0</span>).animate();</span><br><span class="line">        auraAni1(bgAura2, <span class="number">5.4</span>, <span class="number">0.2</span>, <span class="number">1.8</span>, <span class="number">0.6</span>).animate();</span><br><span class="line">        auraAni1(bgAura3, <span class="number">12</span>, <span class="number">0.4</span>, <span class="number">1.8</span>, <span class="number">1.2</span> ).animate();</span><br><span class="line"></span><br><span class="line">    &#125;, <span class="number">2000</span>);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// TweenMax.to(bgAura1, 0.1, &#123;</span></span><br><span class="line">    <span class="comment">//     scaleX: 0.7,</span></span><br><span class="line">    <span class="comment">//     scaleY: 0.7,</span></span><br><span class="line">    <span class="comment">//     delay: 0</span></span><br><span class="line">    <span class="comment">// &#125;);</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// TweenMax.to(bgAura2, 0.1, &#123;</span></span><br><span class="line">    <span class="comment">//     scaleX: 1,</span></span><br><span class="line">    <span class="comment">//     scaleY: 1,</span></span><br><span class="line">    <span class="comment">//     delay: 0</span></span><br><span class="line">    <span class="comment">// &#125;);</span></span><br><span class="line"></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近 Html5 动画非常火，小溪里也在某一个网页中发现了它的踪迹。<a href="http://www.smartisan.com/wechat/anniversary.html" title="真正的光芒，需要一点点时间">DEMO</a>（建议在手机微信或者iPad微信上观看）</p>
+<p>我在帝都的前端朋友也有问我，这种Html5动画怎么做。这里我把我的研究成果在这里展示一下。</p>
+<p>我的这个 HTML5 动画研究是基于 Tween 的高级版 <a href="http://greensock.com/docs/#/HTML5/GSAP/TweenMax/">TweenMax</a> 来做的。</p>]]>
+    
+    </summary>
+    
+      <category term="TweenMax" scheme="http://www.xiaoxili.com/tags/TweenMax/"/>
+    
+      <category term="动画" scheme="http://www.xiaoxili.com/tags/%E5%8A%A8%E7%94%BB/"/>
+    
+      <category term="前端" scheme="http://www.xiaoxili.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[github-hexo]]></title>
+    <link href="http://www.xiaoxili.com/2015/06/01/github-hexo/"/>
+    <id>http://www.xiaoxili.com/2015/06/01/github-hexo/</id>
+    <published>2015-06-01T07:26:59.000Z</published>
+    <updated>2015-06-03T02:31:16.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>为嘛用它</strong><br>现今非常流行使用github来管理自己的代码，用来展示自己的技术研究。小溪里也不能免俗地喜欢了使用github.io来放置我的个人博客。</p>
+<h2 id="简介">简介</h2><p>hexo是一款基于Node.js的静态博客框架。目前在GitHub上已有 5160 star 和 814 fork。<br><a href="http://hexo.io/zh-cn/" target="_blank" rel="external">hexo 中文官网</a><br><a href="http://blog.fens.me/hexo-blog-github/" target="_blank" rel="external">Hexo在github上构建免费的Web应用</a></p>
+<a id="more"></a>
+<h3 id="主题">主题</h3><p><a href="http://hexo.io/themes/" target="_blank" rel="external">官方主题列表</a><br><a href="https://github.com/hexojs/hexo/wiki/themes" target="_blank" rel="external">github 主题列表</a><br><a href="http://www.zhihu.com/question/24422335" target="_blank" rel="external">有那些好看的hexo主题？</a></p>
+<p><strong>我考虑过的主题</strong><br><a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT 主题</a><br>PS: </p>
+<p>设置</p>
+<ul>
+<li>favicon.ico - 放在 hexo根目录/source/</li>
+<li>NexT主题的 defalt_avatar.jpg - 放在hexo根目录themes/next/source/images</li>
+</ul>
+<h3 id="自动部署">自动部署</h3><p>生成文章后自动部署<br><a href="http://hexo.io/zh-cn/docs/deployment.html" target="_blank" rel="external">http://hexo.io/zh-cn/docs/deployment.html</a><br><figure class="highlight vhdl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo <span class="keyword">generate</span> <span class="comment">--deploy</span></span><br><span class="line">$ hexo deploy <span class="comment">--generate</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="参考文章">参考文章</h3><p><a href="http://segmentfault.com/a/1190000000370778" target="_blank" rel="external">hexo —— 简单、快速、强大的Node.js静态博客框架</a><br><a href="http://blog.fens.me/hexo-blog-github/" target="_blank" rel="external">Hexo在github上构建免费的Web应用</a></p>
+<p><a href="ttp://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>为嘛用它</strong><br>现今非常流行使用github来管理自己的代码，用来展示自己的技术研究。小溪里也不能免俗地喜欢了使用github.io来放置我的个人博客。</p>
+<h2 id="简介">简介</h2><p>hexo是一款基于Node.js的静态博客框架。目前在GitHub上已有 5160 star 和 814 fork。<br><a href="http://hexo.io/zh-cn/">hexo 中文官网</a><br><a href="http://blog.fens.me/hexo-blog-github/">Hexo在github上构建免费的Web应用</a></p>]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://www.xiaoxili.com/tags/hexo/"/>
+    
+      <category term="博客" scheme="http://www.xiaoxili.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[PageScroll 研究]]></title>
+    <link href="http://www.xiaoxili.com/2015/05/26/pagescroll-study/"/>
+    <id>http://www.xiaoxili.com/2015/05/26/pagescroll-study/</id>
+    <published>2015-05-26T07:01:07.000Z</published>
+    <updated>2015-06-01T07:31:50.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="引言">引言</h2><p>使用了jQuery插件 <a href="https://github.com/peachananr/onepage-scroll" target="_blank" rel="external">jquery.onepage-scroll.js 1.2.1</a> （下文用onepage-scroll）插件进行修改。具体文章详见 <a href="http://www.smashingmagazine.com/2014/08/25/how-i-built-the-one-page-scroll-plugin/" target="_blank" rel="external">How I Built The One Page Scroll Plugin</a>。onepage-scroll新版本为 1.3.1</p>
+<p>本插件的名字为 jquery.pagescroll.js（下文用 pagescroll） ，以向 onepage-scroll 致敬，同时为了有点区别。</p>
+<h3 id="功能列表">功能列表</h3><ul>
+<li>单页/全屏滚动（借鉴）<ul>
+<li>支持鼠标滚轮、空格键、上下方向键、上下翻页键、上下滑动</li>
+<li>在PC和ipad上支持 <strong>响应式</strong> 操作</li>
+<li>在Mobile上支持竖屏滚动，横屏正常拖动</li>
+</ul>
+</li>
+<li>支持 header、footer、topSlideNav、pagination</li>
+<li>手指跟随(未加入阻尼)</li>
+<li>页面回弹(有阻尼)</li>
+<li>支持 CSS3 easing cubic-bezier()</li>
+</ul>
+<a id="more"></a>
+<h2 id="补充说明">补充说明</h2><p>在 onepage-scroll 中用 <code>translate3d 100%</code>进行了一屏滑动，同时在ie8上使用了绝对定位进行滚屏操作。</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">transform</span>: <span class="function"><span class="title">translate3d</span><span class="params">(<span class="number">0</span>, <span class="number">100%</span>, <span class="number">0</span>)</span></span></span><br></pre></td></tr></table></figure>
+<h3 id="单位，是使用_%_还是_px_(像素)">单位，是使用 % 还是 px (像素)</h3><p>在百度V5.7和搜狗3.7.4 对transform: translate3d(0, ?%, 0)中百分比不支持，所以改用px</p>
+<p>具体表现：滚屏会白屏或计算不准确。<a href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" target="_blank" rel="external">View Demo</a></p>
+<p>另外，本插件支持 <code>手指跟随</code> 和 <code>页面回弹</code>，那么用px进行计算会更加方便一些。</p>
+<h3 id="是否兼容IE9-">是否兼容IE9-</h3><blockquote>
+<p>IE9-指的是不支持translate3d的Internet Explorer，包含ie6、ie7、ie8、ie9.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//onepage-scroll 1.3.1</span></span><br><span class="line"><span class="keyword">if</span>($(<span class="string">'html'</span>).hasClass(<span class="string">'ie8'</span>)) &#123; &#125;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>在 <code>onepage-scroll 1.3.1</code> 中有对 IE9- 的支持，但考虑到pagescroll使用了 <code>translate3d</code> 这么高大上的方式，并且在 IE9- 上表现效果也不好，在经过反复考虑后决定先不支持 IE9-。在IE8、IE9 上再做单独处理吧。</p>
+<blockquote>
+<p>modernizr.transforms3d.js<br>判断浏览器所能支持的特性，本插件所使用的modernizr 2.8.3使用定制版本<br>网址：<a href="http://modernizr.com/download/#-csstransforms3d-shiv-cssclasses-teststyles-testprop-testallprops-prefixes-domprefixes-load" target="_blank" rel="external">http://modernizr.com/download/#-csstransforms3d-shiv-cssclasses-teststyles-testprop-testallprops-prefixes-domprefixes-load</a><br>在 IE10+ 、Chrome 、Safari 、Firefox 等浏览器上支持 csstransforms3d，才可以使用pagescroll<br>在 IE9- 等浏览器上不支持csstransforms3d，所以就不启动page scroll</p>
+</blockquote>
+<h3 id="各大浏览器的具体表现如何？">各大浏览器的具体表现如何？</h3><p>在 Safari 浏览器和 Smartisan T1 自带浏览器上，如果页面高度超过了浏览器内容高度的话，在上下滑动时，浏览器的标题栏、工具栏都可能会消失，那这时候会影响到页面滚屏的效果。但在 pagescroll 不会出现这个问题。<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">html</span><span class="class">.onepage-wrapper</span>, <span class="tag">html</span><span class="class">.onepage-wrapper</span> <span class="tag">body</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">margin</span>:<span class="value"> <span class="number">0</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">height</span>:<span class="value"> <span class="number">100%</span></span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">-webkit-tap-highlight-color</span>:<span class="value"> <span class="function">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>)</span></span>;</span><br><span class="line">  <span class="rule"><span class="attribute">-webkit-tap-highlight-color</span>:<span class="value"> transparent</span></span>; <span class="comment">/* For some Androids */</span></span><br><span class="line">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="class">.hidden</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">overflow-y</span>:<span class="value"> hidden</span></span>;</span><br><span class="line">&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="class">.mac-hidden</span> <span class="rules">&#123;</span><br><span class="line">  <span class="rule"><span class="attribute">overflow</span>:<span class="value"> hidden</span></span>;</span><br><span class="line">&#125;</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="手势操作">手势操作</h2><p>在 onepage-scroll 只提供了上下左右滑动的单页/全屏滚动。但在智能手机或平板上除了整屏滑动之外，还拥有手指跟苏和页面回弹等特性。</p>
+<p>pagescroll 主要是针对 <code>swipeEvents</code> 进行了扩展。在 onepage-scroll 中使用 <code>touchMove</code> 来 <code>trigger</code> 了 <code>swipe</code> 事件(包含up、down、left、right)。在 pagescroll 中，因为需要加上手指跟随和页面回弹这两个特性，将触发swipe动作主要放在了 <code>touchEnd</code> 事件上。</p>
+<h3 id="慢速滑动和快速滑动">慢速滑动和快速滑动</h3><p><strong>慢速滑动</strong></p>
+<ol>
+<li>touchStart 中记录 <code>startY</code></li>
+<li>touchMove 中算出 <code>endY(startY - touches[0].pageY)</code></li>
+<li>在 touchEnd 中判断 <code>endY</code> 是否超过 50。若超过50，将 <code>trigger</code> 了 <code>swipe</code> 事件(包含up、down、left、right)。</li>
+</ol>
+<p><strong>快速滑动</strong></p>
+<ol>
+<li>touchStart 中记录 <code>startTime</code></li>
+<li>touchEnd 中记录 <code>endTime</code>， 并判断时间间隔 <code>quickSwipeTime = (endTime - startTime) &lt; 300;</code></li>
+<li>在 touchEnd 中判断时间间隔是否小于 300ms。若小于300ms，将 <code>trigger</code> 了 <code>swipe</code> 事件(包含up、down、left、right)。</li>
+</ol>
+<figure class="highlight openscad"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">var endTime = new Date<span class="params">()</span>.getTime<span class="params">()</span>;</span><br><span class="line">var quickSwipeTime = <span class="params">(endTime - startTime)</span> &lt; <span class="number">300</span>;</span><br><span class="line"><span class="keyword">if</span> <span class="params">(endX &gt;= <span class="number">50</span> || <span class="params">(endX &gt; <span class="number">14</span> quickSwipeTime&amp;&amp; )</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">$t</span>his.trigger<span class="params">('swipeLeft')</span>;</span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> <span class="params">(endX &lt;= -<span class="number">50</span> || <span class="params">(endX &lt; -<span class="number">14</span> &amp;&amp; quickSwipeTime)</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">$t</span>his.trigger<span class="params">('swipeRight')</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">if</span> <span class="params">(endY &gt;= <span class="number">50</span> || <span class="params">(endY &gt; <span class="number">14</span> &amp;&amp; quickSwipeTime)</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">$t</span>his.trigger<span class="params">('swipeUp')</span>;</span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> <span class="params">(endY &lt;= -<span class="number">50</span> || <span class="params">(endY &lt; -<span class="number">14</span> &amp;&amp; quickSwipeTime)</span>)</span> &#123;</span><br><span class="line">    <span class="keyword">$t</span>his.trigger<span class="params">('swipeDown')</span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h4 id="bug处理——卡在标题栏">bug处理——卡在标题栏</h4><p>在ipad和iPhone上滑到微信标题栏时，此时并不会 <code>touchEnd</code>，此时页面会卡在页面上。pagescroll 会 <code>touches[0].pageY</code> 是否小于 0，然后让其触发 <code>doSwipe()</code><br><figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="comment">(touches[0].pageY &lt; 0 || startY &gt;= windowHeight - 10 )</span> &#123;</span><br><span class="line"><span class="comment">// 触发滑动或页面回弹</span></span><br><span class="line">doSwipe<span class="comment">()</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="手指跟随">手指跟随</h3><p>手指跟随的逻辑其实挺简单的。</p>
+<ol>
+<li>touchStart 中记录 <code>startY</code></li>
+<li>touchMove 中算出 <code>endY(startY - touches[0].pageY)</code></li>
+<li>在 touchMove 中即时改变 页面容器的 <code>translate3d</code></li>
+</ol>
+<h3 id="页面回弹">页面回弹</h3><p>页面回弹的逻辑其实挺简单的。</p>
+<ol>
+<li>touchStart 中记录 <code>startY</code></li>
+<li>touchMove 中算出 <code>endY(startY - touches[0].pageY)</code></li>
+<li>在 touchEnd </li>
+</ol>
+<h4 id="bug处理——开在调出控制中心后">bug处理——开在调出控制中心后</h4><p>在ipad和iPhone上有屏幕底部滑出“控制中心”时，也不会触发<code>touchEnd</code>，此时页面也会卡住。pagescroll 使用了 <code>touchCancel</code> 来让页面回弹。</p>
+<h3 id="附上_swipeEvents_代码">附上 swipeEvents 代码</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br></pre></td><td class="code"><pre><span class="line">$.fn.swipeEvents = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">this</span>.each(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 横向起始位置</span></span><br><span class="line">        <span class="keyword">var</span> startX;</span><br><span class="line">        <span class="comment">// 纵向起始位置</span></span><br><span class="line">        <span class="keyword">var</span> startY;</span><br><span class="line">        <span class="comment">// 横向截止位置</span></span><br><span class="line">        <span class="keyword">var</span> endX;</span><br><span class="line">        <span class="comment">// 纵向截止位置</span></span><br><span class="line">        <span class="keyword">var</span> endY;</span><br><span class="line">        <span class="comment">// 页面高度</span></span><br><span class="line">        <span class="keyword">var</span> windowHeight = element._window.height();</span><br><span class="line">        <span class="comment">// 页面回弹的触发高度</span></span><br><span class="line">        <span class="keyword">var</span> positionXY = windowHeight * <span class="number">0.25</span>;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 快速滑动</span></span><br><span class="line">        <span class="keyword">var</span> startTime;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 赋值$(this)的指向</span></span><br><span class="line">        <span class="keyword">var</span> $<span class="keyword">this</span> = $(<span class="keyword">this</span>);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 元素绑定touchstart和touchend事件</span></span><br><span class="line">        $<span class="keyword">this</span>.on(<span class="string">'touchstart'</span>, touchstart);</span><br><span class="line">        $<span class="keyword">this</span>.on(<span class="string">'touchend'</span>, touchend);</span><br><span class="line">        $<span class="keyword">this</span>.on(<span class="string">'touchcancel'</span>, touchcancel);</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">touchstart</span>(<span class="params">event</span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">var</span> touches = event.originalEvent.touches;</span><br><span class="line">            <span class="keyword">if</span> (touches &amp;&amp; touches.length) &#123;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 触摸的起始坐标</span></span><br><span class="line">                startX = touches[<span class="number">0</span>].pageX;</span><br><span class="line">                startY = touches[<span class="number">0</span>].pageY;</span><br><span class="line">                startTime = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime();</span><br><span class="line"></span><br><span class="line">                <span class="comment">// touchstart上绑定touchmove，持续运行</span></span><br><span class="line">                $<span class="keyword">this</span>.on(<span class="string">'touchmove'</span>, touchmove);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">touchmove</span>(<span class="params">event</span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">var</span> touches = event.originalEvent.touches;</span><br><span class="line">            <span class="keyword">if</span> (touches &amp;&amp; touches.length) &#123;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 加上preventDefault在T1、QQ浏览器上才能触发touchend事件</span></span><br><span class="line">                event.preventDefault();</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 滑动的位移/偏移</span></span><br><span class="line">                endX = startX - touches[<span class="number">0</span>].pageX;</span><br><span class="line">                endY = startY - touches[<span class="number">0</span>].pageY;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 显示页码</span></span><br><span class="line">                <span class="keyword">if</span> (isMobile) &#123;</span><br><span class="line">                    pagination.show(<span class="number">10</span>);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 在首页和末页，只能跟随手指50px</span></span><br><span class="line">                <span class="keyword">if</span> (headerFooterNeed) &#123;</span><br><span class="line">                    <span class="keyword">if</span> (endIndex == <span class="number">0</span>) &#123;</span><br><span class="line">                        endY = ( <span class="number">1</span> - <span class="number">0.82</span> * <span class="built_in">Math</span>.abs(endY) / windowHeight) * endY;</span><br><span class="line">                        endY = endY &lt;= -positionXY ? -(positionXY - <span class="number">0.000001</span>) : endY;</span><br><span class="line">                    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (endIndex == element.section.length + <span class="number">1</span>)&#123;</span><br><span class="line">                        endY = ( <span class="number">1</span> - <span class="number">0.82</span> * <span class="built_in">Math</span>.abs(endY) / windowHeight) * endY;</span><br><span class="line">                        endY = endY &gt;= positionXY ? (positionXY - <span class="number">0.000001</span>) : endY;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line"></span><br><span class="line">                    <span class="keyword">if</span> (endIndex == <span class="number">1</span> &amp;&amp; endY &lt; <span class="number">0</span>) &#123;</span><br><span class="line">                        endY = ( <span class="number">1</span> - <span class="number">0.82</span> * <span class="built_in">Math</span>.abs(endY) / windowHeight) * endY;</span><br><span class="line">                        endY = endY &lt;= -positionXY ? -(positionXY - <span class="number">0.000001</span>) : endY;</span><br><span class="line">                        </span><br><span class="line">                    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (endIndex == element.section.length &amp;&amp; endY &gt; <span class="number">0</span>)&#123;</span><br><span class="line">                        endY = ( <span class="number">1</span> - <span class="number">0.82</span> * <span class="built_in">Math</span>.abs(endY) / windowHeight) * endY;</span><br><span class="line">                        endY = endY &gt;= positionXY ? (positionXY - <span class="number">0.000001</span>) : endY;</span><br><span class="line">                    </span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 计算整屏需要的位移/偏移量</span></span><br><span class="line">                <span class="comment">// 手指移动100%，屏幕移动50%</span></span><br><span class="line">                <span class="keyword">var</span> pos = -endY / <span class="number">2</span> + endTop;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 如果touchend触发的动画不在进行中</span></span><br><span class="line">                <span class="keyword">if</span> (!isRunning) &#123;</span><br><span class="line">                    <span class="comment">// 页面跟随手指移动</span></span><br><span class="line">                    changeSectionPosition(pos, <span class="number">0</span>, settings.easing);</span><br><span class="line"></span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                <span class="keyword">if</span> (touches[<span class="number">0</span>].pageY &lt; <span class="number">0</span> || startY &gt;= windowHeight - <span class="number">10</span> ) &#123;</span><br><span class="line">                    <span class="comment">// $('a.back').html($('a.back').html() +'&lt;br /&gt; touchmove doSwipe');</span></span><br><span class="line">                    doSwipe();</span><br><span class="line">                    <span class="comment">//$this.off('touchend', touchend);</span></span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">touchend</span>(<span class="params">event</span>) </span>&#123;</span><br><span class="line">            <span class="keyword">var</span> touches = event.originalEvent.changedTouches;</span><br><span class="line">            <span class="keyword">if</span> (touches &amp;&amp; touches.length) &#123;</span><br><span class="line">                doSwipe();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="comment">// toudend end</span></span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">touchcancel</span>(<span class="params">event</span>) </span>&#123;</span><br><span class="line">            <span class="comment">// 位移过小，则页面回弹</span></span><br><span class="line">                <span class="keyword">if</span> (<span class="built_in">Math</span>.abs(endY) &lt; positionXY) &#123;</span><br><span class="line">                    <span class="keyword">var</span> animationTime = settings.animationTime / <span class="number">2</span>;</span><br><span class="line">                    changeSectionPosition(endTop, animationTime, <span class="string">'cubic-bezier(.4,.01,.165,.99)'</span>);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 隐藏页码</span></span><br><span class="line">                <span class="keyword">if</span> (isMobile) &#123;</span><br><span class="line">                    pagination.hide(<span class="number">1600</span>);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 关闭touchmove</span></span><br><span class="line">                $<span class="keyword">this</span>.off(<span class="string">'touchmove'</span>, touchmove);</span><br><span class="line">        &#125; <span class="comment">// toudend end</span></span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">function</span> <span class="title">doSwipe</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">                <span class="comment">// 将swipeEvent与滑动方向绑定在一起</span></span><br><span class="line">                <span class="keyword">var</span> endTime = <span class="keyword">new</span> <span class="built_in">Date</span>().getTime();</span><br><span class="line">                <span class="keyword">var</span> quickSwipeTime = endTime - startTime &lt; <span class="number">300</span>;</span><br><span class="line">                <span class="keyword">if</span> (endX &gt;= <span class="number">50</span> || (endX &gt; <span class="number">14</span> &amp;&amp; quickSwipeTime)) &#123;</span><br><span class="line">                    $<span class="keyword">this</span>.trigger(<span class="string">'swipeLeft'</span>);</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (endX &lt;= -<span class="number">50</span> || (endX &lt; -<span class="number">14</span> &amp;&amp; quickSwipeTime)) &#123;</span><br><span class="line">                    $<span class="keyword">this</span>.trigger(<span class="string">'swipeRight'</span>);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                <span class="keyword">if</span> (endY &gt;= <span class="number">50</span> || (endY &gt; <span class="number">14</span> &amp;&amp; quickSwipeTime)) &#123;</span><br><span class="line">                    $<span class="keyword">this</span>.trigger(<span class="string">'swipeUp'</span>);</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (endY &lt;= -<span class="number">50</span> || (endY &lt; -<span class="number">14</span> &amp;&amp; quickSwipeTime)) &#123;</span><br><span class="line">                    $<span class="keyword">this</span>.trigger(<span class="string">'swipeDown'</span>);</span><br><span class="line">                &#125;;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 位移过小，则页面回弹</span></span><br><span class="line">                <span class="keyword">if</span> (<span class="built_in">Math</span>.abs(endY) &lt; positionXY) &#123;</span><br><span class="line">                    <span class="keyword">var</span> animationTime = settings.animationTime / <span class="number">2</span>;</span><br><span class="line">                    changeSectionPosition(endTop, animationTime, <span class="string">'cubic-bezier(.4,.01,.165,.99)'</span>);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 隐藏页码</span></span><br><span class="line">                <span class="keyword">if</span> (isMobile) &#123;</span><br><span class="line">                    pagination.hide(<span class="number">1600</span>);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                <span class="comment">// 关闭touchmove</span></span><br><span class="line">                $<span class="keyword">this</span>.off(<span class="string">'touchmove'</span>, touchmove);</span><br><span class="line">                endX = <span class="number">0</span>;</span><br><span class="line">                endY = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> touchHandler = &#123;</span><br><span class="line">    isTablet : navigator.userAgent.match(<span class="regexp">/(iPhone|iPod|iPad|Android|BlackBerry|Windows Phone|Tizen|Bada)/</span>),</span><br><span class="line">    addTouchHandler: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        el.swipeEvents().bind(<span class="string">"swipeDown"</span>,  <span class="function"><span class="keyword">function</span>(<span class="params">event</span>)</span>&#123; </span><br><span class="line">            mouseWheelHandle(event, <span class="number">1</span>);</span><br><span class="line">        &#125;).bind(<span class="string">"swipeUp"</span>, <span class="function"><span class="keyword">function</span>(<span class="params">event</span>)</span>&#123; </span><br><span class="line">            mouseWheelHandle(event, -<span class="number">1</span>);</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;,</span><br><span class="line">    removeTouchHandler: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        el.swipeEvents().unbind(<span class="string">"swipeDown swipeUp"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="核心函数">核心函数</h2><h3 id="doScroll()">doScroll()</h3><p><code>doScroll()</code> 完成了滚动屏幕的核心功能。</p>
+<figure class="highlight openscad"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">var isRunning = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">doScroll</span><span class="params">(delta)</span> &#123;</span></span><br><span class="line">    <span class="comment">// 检测动画是否在运行</span></span><br><span class="line">    <span class="keyword">if</span> <span class="params">(isRunning)</span> &#123;</span><br><span class="line">        return;</span><br><span class="line">    &#125;</span><br><span class="line">    isRunning = <span class="literal">true</span>;</span><br><span class="line">    setTimeout<span class="params">(function<span class="params">()</span> &#123;</span><br><span class="line">        isRunning = <span class="literal">false</span>;</span><br><span class="line">    &#125;, settings.animationTime + <span class="number">300</span>)</span>;</span><br><span class="line">    <span class="comment">// 更新 endIndex</span></span><br><span class="line">    updateIndex<span class="params">(delta)</span>;</span><br><span class="line">    <span class="comment">// 更新 endTop</span></span><br><span class="line">    updateTop<span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 执行页面切换动画</span></span><br><span class="line">    el.transformPage<span class="params">(settings, endTop, endIndex, delta)</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//if (headerFooterNeed) &#123;</span></span><br><span class="line">        subNav.toggle<span class="params">()</span>;</span><br><span class="line">    <span class="comment">//&#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// pagination 切换 active 状态</span></span><br><span class="line">    pagination.toggle<span class="params">()</span>;</span><br><span class="line">    screenSwitch.toggle<span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>isRunning</strong><br>在 onepage-scroll 的实际操作中，如果快速滑动页面，可能前一屏页面动画还没执行完就立马执行下一屏了，导致用户体验变差。在 pagescroll中引入了 <code>isRunning</code>  来阻断页面动画还没有执行完的页面连续上下切换。</p>
+<h3 id="transformPage()">transformPage()</h3><p><code>transformPage</code> 完成了页面切换的功能，其中提供了 <code>beforeMove</code> 和 <code>afterMove</code> 功能。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 切换页面</span></span><br><span class="line">$.fn.transformPage = <span class="function"><span class="keyword">function</span>(<span class="params">settings, pos, index, delta</span>) </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">typeof</span> settings.beforeMove == <span class="string">'function'</span>) &#123;</span><br><span class="line">        settings.beforeMove(index);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    changeSectionPosition(pos, settings.animationTime, settings.easing);</span><br><span class="line"></span><br><span class="line">    $(<span class="keyword">this</span>).one(<span class="string">'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">e</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">typeof</span> settings.afterMove == <span class="string">'function'</span>)&#123;</span><br><span class="line">            settings.afterMove(index);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 页面切换时执行</span></span><br><span class="line">    page.transition(index, delta);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="mouseWheelHandle()">mouseWheelHandle()</h3><p><code>mouseWheelHandle()</code>  可以将滑动、鼠标及键盘统一到一起，来完成 <code>doScroll()</code> 的页面操作。<br><figure class="highlight openscad"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">var mouseWheelHandle = <span class="function"><span class="keyword">function</span> <span class="params">(event, delta)</span> &#123;</span></span><br><span class="line">    event.preventDefault<span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 这里鼠标没有给delta</span></span><br><span class="line">    <span class="keyword">if</span> <span class="params">(!delta)</span> &#123;</span><br><span class="line">        delta = event.originalEvent.wheelDelta || -event.originalEvent.detail;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 每次只滚动一屏</span></span><br><span class="line">    <span class="keyword">if</span> <span class="params">(delta &gt; <span class="number">0</span>)</span> &#123;</span><br><span class="line">        delta = <span class="number">1</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        delta = -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 进行滚动</span></span><br><span class="line">    doScroll<span class="params">(delta)</span>;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></p>
+<h3 id="changeSectionPosition()">changeSectionPosition()</h3><p><code>changeSectionPosition()</code>  完成页面平移，包含页面滚动、手指跟随、页面回弹。</p>
+<figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">function changeSectionPosition(top, <span class="keyword">time</span>, easing) &#123;</span><br><span class="line">    el.css(&#123;</span><br><span class="line">        <span class="string">'-webkit-transform'</span>: <span class="string">'translate3d(0, '</span> + top + <span class="string">'px, 0)'</span>,</span><br><span class="line">        <span class="string">'-webkit-transition'</span>: <span class="string">'-webkit-transform '</span> + <span class="keyword">time</span> + <span class="string">'ms '</span> +easing,</span><br><span class="line">        <span class="string">'-moz-transform'</span>: <span class="string">'translate3d(0, '</span> + top + <span class="string">'px, 0)'</span>,</span><br><span class="line">        <span class="string">'-moz-transition'</span>: <span class="string">'-moz-transform '</span> + <span class="keyword">time</span> + <span class="string">'ms '</span> +easing,</span><br><span class="line">        <span class="string">'-ms-transform'</span>: <span class="string">'translate3d(0, '</span> + top + <span class="string">'px, 0)'</span>,</span><br><span class="line">        <span class="string">'-ms-transition'</span>: <span class="string">'-ms-transform '</span> + <span class="keyword">time</span> + <span class="string">'ms '</span> +easing,</span><br><span class="line">        <span class="string">'transform'</span>: <span class="string">'translate3d(0, '</span> + top + <span class="string">'px, 0)'</span>,</span><br><span class="line">        <span class="string">'transition'</span>: <span class="string">'transform '</span> + <span class="keyword">time</span> + <span class="string">'ms '</span> +easing</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="代码简要分析">代码简要分析</h2><h3 id="设置项">设置项</h3><ul>
+<li><code>defaults</code> 默认参数</li>
+<li><code>settings</code> 可扩展参数</li>
+<li><code>elementInit</code> 针对 defaults 和 settings中的 <strong>element</strong> 中需要变成$()的进行了预先元素设置。</li>
+<li><code>endIndex</code> 当前执行动画后的单页序号</li>
+<li><code>endTop</code> 执行动画后页面的位置</li>
+</ul>
+<h3 id="功能函数">功能函数</h3><p>init() 提供了的进入方法<br><figure class="highlight openscad"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 执行一次  在ie10+、chrome、Safari、Firefox等浏览器上使用page scroll</span></span><br><span class="line"><span class="keyword">if</span> <span class="params">($<span class="params">('html')</span>.hasClass<span class="params">('csstransforms3d')</span>)</span> &#123;</span><br><span class="line">    <span class="comment">// 启动本函数</span></span><br><span class="line">    init<span class="params">()</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>pagination 对页码进行处理<br>page 对每一个单页做处理<br>subNav 对<code>header-nav-slide</code> 进行处理<br>updateIndex() 对 <code>endIndex</code> 进行处理<br>updateTop() 对 <code>endTop</code> 进行处理</p>
+<p>附上单页案例<br><a href="https://github.com/yanhaijing/zepto.fullpage/issues/21" target="_blank" rel="external">https://github.com/yanhaijing/zepto.fullpage/issues/21</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="引言">引言</h2><p>使用了jQuery插件 <a href="https://github.com/peachananr/onepage-scroll">jquery.onepage-scroll.js 1.2.1</a> （下文用onepage-scroll）插件进行修改。具体文章详见 <a href="http://www.smashingmagazine.com/2014/08/25/how-i-built-the-one-page-scroll-plugin/">How I Built The One Page Scroll Plugin</a>。onepage-scroll新版本为 1.3.1</p>
+<p>本插件的名字为 jquery.pagescroll.js（下文用 pagescroll） ，以向 onepage-scroll 致敬，同时为了有点区别。</p>
+<h3 id="功能列表">功能列表</h3><ul>
+<li>单页/全屏滚动（借鉴）<ul>
+<li>支持鼠标滚轮、空格键、上下方向键、上下翻页键、上下滑动</li>
+<li>在PC和ipad上支持 <strong>响应式</strong> 操作</li>
+<li>在Mobile上支持竖屏滚动，横屏正常拖动</li>
+</ul>
+</li>
+<li>支持 header、footer、topSlideNav、pagination</li>
+<li>手指跟随(未加入阻尼)</li>
+<li>页面回弹(有阻尼)</li>
+<li>支持 CSS3 easing cubic-bezier()</li>
+</ul>]]>
+    
+    </summary>
+    
+      <category term="前端插件" scheme="http://www.xiaoxili.com/tags/%E5%89%8D%E7%AB%AF%E6%8F%92%E4%BB%B6/"/>
+    
+      <category term="单页全屏" scheme="http://www.xiaoxili.com/tags/%E5%8D%95%E9%A1%B5%E5%85%A8%E5%B1%8F/"/>
+    
+      <category term="前端" scheme="http://www.xiaoxili.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+</feed>

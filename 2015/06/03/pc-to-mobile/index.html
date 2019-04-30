@@ -1,0 +1,739 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="移动Web,">
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
+
+
+
+
+
+
+<meta name="description" content="我在《响应式Web设计——断点设计》一文中简单阐述了我对断点的理解及运用。 快速审查问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白.示例： 互联网分析沙龙">
+<meta name="keywords" content="移动Web">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从PC Web到移动 Web，我踩过的坑">
+<meta property="og:url" content="http://www.xiaoxili.com/2015/06/03/pc-to-mobile/index.html">
+<meta property="og:site_name" content="小溪里 - XiaoXili.com">
+<meta property="og:description" content="我在《响应式Web设计——断点设计》一文中简单阐述了我对断点的理解及运用。 快速审查问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白.示例： 互联网分析沙龙">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://devconf.qiniudn.com/list-more.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/51cto-pic.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/height-float.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/51cto-float1.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/51cto-float.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/align-left.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/align-left2.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/height-float.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/search-320.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/search-568.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/input-51cto-iphone.png">
+<meta property="og:image" content="http://devconf.qiniudn.com/input-51cto-android.png">
+<meta property="og:updated_time" content="2019-04-30T07:28:08.632Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="从PC Web到移动 Web，我踩过的坑">
+<meta name="twitter:description" content="我在《响应式Web设计——断点设计》一文中简单阐述了我对断点的理解及运用。 快速审查问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白.示例： 互联网分析沙龙">
+<meta name="twitter:image" content="http://devconf.qiniudn.com/list-more.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.xiaoxili.com/2015/06/03/pc-to-mobile/">
+
+
+
+
+
+  <title> 从PC Web到移动 Web，我踩过的坑 | 小溪里 - XiaoXili.com </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">小溪里 - XiaoXili.com</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">前端闲扯</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://www.xiaoxili.com/2015/06/03/pc-to-mobile/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Chilligo Sheng">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="小溪里 - XiaoXili.com">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="小溪里 - XiaoXili.com" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                从PC Web到移动 Web，我踩过的坑
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-06-03T11:16:15+08:00">
+                2015-06-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>我在《<a href="http://www.xiaoxili.com/2015/06/03/break-of-responsive-web-design/">响应式Web设计——断点设计</a>》一文中简单阐述了我对断点的理解及运用。</p>
+<h2 id="快速审查"><a href="#快速审查" class="headerlink" title="快速审查"></a>快速审查</h2><h3 id="问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白"><a href="#问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白" class="headerlink" title="问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白."></a>问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白.</h3><p>示例： <a href="http://www.techxue.com/" target="_blank" rel="noopener">互联网分析沙龙</a></p>
+<a id="more"></a>
+<p>此处有两张图</p>
+<p><img src="http://devconf.qiniudn.com/list-more.png" alt><br><img src="http://devconf.qiniudn.com/51cto-pic.png" alt></p>
+<p>长标题，可以单行截取。示例：<a href="http://www.51cto.com/" target="_blank" rel="noopener">51CTO</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a &#123;</span><br><span class="line">	display: block;</span><br><span class="line">	word-wrap: normal;</span><br><span class="line">	text-overflow: ellipsis;</span><br><span class="line">	white-space: nowrap;</span><br><span class="line">	overflow: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="问题2：写死高度可能使内容超出模块范围，出现截取或者错版的问题。"><a href="#问题2：写死高度可能使内容超出模块范围，出现截取或者错版的问题。" class="headerlink" title="问题2：写死高度可能使内容超出模块范围，出现截取或者错版的问题。"></a>问题2：写死高度可能使内容超出模块范围，出现截取或者错版的问题。</h3><p>屏幕宽度变化时，如从360px到320px时。PS：在UC上float有bug<br>图片<br><img src="http://devconf.qiniudn.com/height-float.png" alt></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">.am-list-news-hd h2 &#123;</span><br><span class="line">	font-size: 1.6rem;</span><br><span class="line">	float: left;</span><br><span class="line">	margin: 0;</span><br><span class="line">	height: 2rem;</span><br><span class="line">	line-height: 2rem;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">/* 导致uc上float不正常的原因 示例:float.html*/</span><br><span class="line">text-rendering: optimizeLegibility;</span><br></pre></td></tr></table></figure>
+<h3 id="问题3：浮动容易导致错版。"><a href="#问题3：浮动容易导致错版。" class="headerlink" title="问题3：浮动容易导致错版。"></a>问题3：浮动容易导致错版。</h3><p><img src="http://devconf.qiniudn.com/51cto-float1.png" alt><br><img src="http://devconf.qiniudn.com/51cto-float.png" alt></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">.col-a .area &gt; a &#123;</span><br><span class="line">	width: 80px;</span><br><span class="line">	overflow: hidden;</span><br><span class="line">	float: left;</span><br><span class="line">	margin-right: 5px;</span><br><span class="line">&#125;</span><br><span class="line">	</span><br><span class="line">		</span><br><span class="line">.col-a .area &#123;</span><br><span class="line">  padding: 5px 10px;</span><br><span class="line">  border-bottom: 1px dashed #bfbfbf;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="问题5：按钮、图片使用一致的对齐方式。"><a href="#问题5：按钮、图片使用一致的对齐方式。" class="headerlink" title="问题5：按钮、图片使用一致的对齐方式。"></a>问题5：按钮、图片使用一致的对齐方式。</h3><p>竖屏看起来像水平居中，那么横屏时也要是水平居中的。<br><img src="http://devconf.qiniudn.com/align-left.png" alt><br><img src="http://devconf.qiniudn.com/align-left2.png" alt></p>
+<h2 id="奇思淫巧"><a href="#奇思淫巧" class="headerlink" title="奇思淫巧"></a>奇思淫巧</h2><h3 id="NO1-基于表格布局的垂直居中。"><a href="#NO1-基于表格布局的垂直居中。" class="headerlink" title="NO1: 基于表格布局的垂直居中。"></a>NO1: 基于表格布局的垂直居中。</h3><p>1、高度一致；2：轻松实现垂直居中</p>
+<p>此处有一张图片<br><img src="http://devconf.qiniudn.com/height-float.png" alt></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;list&quot;&gt;</span><br><span class="line">	&lt;div class=&quot;line&quot;&gt;</span><br><span class="line">		&lt;div class=&quot;pic&quot;&gt;&lt;/div&gt;</span><br><span class="line">		&lt;div class=&quot;title&quot;&gt;&lt;/div&gt;</span><br><span class="line">	&lt;/div&gt;</span><br><span class="line">	&lt;div class=&quot;line&quot;&gt;</span><br><span class="line">		&lt;div class=&quot;pic&quot;&gt;&lt;/div&gt;</span><br><span class="line">		&lt;div class=&quot;title&quot;&gt;&lt;/div&gt;</span><br><span class="line">	&lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">list &#123;</span><br><span class="line">	display: table;</span><br><span class="line">&#125;</span><br><span class="line">.line &#123;</span><br><span class="line">	display:table-row;</span><br><span class="line">&#125;</span><br><span class="line">.pic, .title &#123;</span><br><span class="line">	display:table-cell;vertical-align: middle;</span><br><span class="line">&#125;</span><br><span class="line">.pic &#123;</span><br><span class="line">	/*左边固定宽度，右边宽度自适应*/</span><br><span class="line">	width: 120px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="NO2-计算间距"><a href="#NO2-计算间距" class="headerlink" title="NO2: 计算间距"></a>NO2: 计算间距</h3><ul>
+<li>情况一：看几倍图，看font-size，看line-height，看padding和margin。</li>
+<li>情况二：缩放式，间距也应当设置成百分比形式的</li>
+<li>情况三：360px到320px可能导致换行，此时行距也会导致间距，应适时改变间距设置</li>
+</ul>
+<h3 id="NO3-手机上-1PX-边框"><a href="#NO3-手机上-1PX-边框" class="headerlink" title="NO3: 手机上 1PX 边框"></a>NO3: 手机上 1PX 边框</h3><p>1像素边框，在2倍屏幕上为2“占位”，3倍屏上为3“占位”，但设计师就要1“占位”</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">.content h1:after,</span><br><span class="line">.content h2:after &#123;</span><br><span class="line">    border-top: 1px solid #bfbfbf;</span><br><span class="line">    content: &apos; &apos;;</span><br><span class="line">    display: block;</span><br><span class="line">    width: 100%;</span><br><span class="line">    position: absolute;</span><br><span class="line">    left: 0;</span><br><span class="line">    bottom: 0;</span><br><span class="line">    -webkit-transform-origin: left bottom;</span><br><span class="line">&#125;</span><br><span class="line">/* Retina 适配 */</span><br><span class="line">@media only screen and (-webkit-min-device-pixel-ratio: 2.0),</span><br><span class="line">only screen and (min--moz-device-pixel-ratio: 2.0),</span><br><span class="line">only screen and (-o-min-device-pixel-ratio: 200/100),</span><br><span class="line">only screen and (min-device-pixel-ratio: 2.0) &#123;</span><br><span class="line">    .content h1:after,</span><br><span class="line">    .content h2:after &#123;</span><br><span class="line">        -webkit-transform: scaleY(0.5);</span><br><span class="line">        transform: scaleY(0.5);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 三倍屏 适配 */</span><br><span class="line">@media only screen and (-webkit-min-device-pixel-ratio: 2.5),</span><br><span class="line">only screen and (min--moz-device-pixel-ratio: 2.5),</span><br><span class="line">only screen and (-o-min-device-pixel-ratio: 250/100),</span><br><span class="line">only screen and (min-device-pixel-ratio: 2.5) &#123;</span><br><span class="line">    .content h1:after,</span><br><span class="line">    .content h2:after &#123;</span><br><span class="line">        -webkit-transform: scaleY(0.33333334);</span><br><span class="line">        transform: scaleY(0.33333334);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="字体-我是这么认为的"><a href="#字体-我是这么认为的" class="headerlink" title="字体 我是这么认为的~"></a>字体 我是这么认为的~</h2><p><a href="http://www.howsci.com/diffirence-of-px-em-rem.html" target="_blank" rel="noopener">px em rem 三者的区别</a></p>
+<p>不建议使用小于12px的字体，因为在安卓chrome上不支持</p>
+<h3 id="知名互联网公司-移动端字体大小"><a href="#知名互联网公司-移动端字体大小" class="headerlink" title="知名互联网公司 移动端字体大小"></a>知名互联网公司 移动端字体大小</h3><table>
+<thead>
+<tr>
+<th>类型</th>
+<th style="text-align:center">基准字体</th>
+<th>字体区间</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>国外官网类</td>
+<td style="text-align:center">18~16px</td>
+<td>大字体 ≈30px<br> 标题字体 22px~18px<br>正文字体 18~14px<br>底部最小字体 14~12px</td>
+</tr>
+<tr>
+<td>网购类</td>
+<td style="text-align:center">14~12px</td>
+<td>标题 16px<br>正文 14~12px<br>底部最小字体 12px</td>
+</tr>
+<tr>
+<td>国内媒体类</td>
+<td style="text-align:center">16px</td>
+<td>标题 22px~18px<br>正文 18~16px<br>附加信息 12px<br>底部最小字体 12px</td>
+</tr>
+</tbody>
+</table>
+<p><em>行高为 1.3、1.35、1.45、1.5</em></p>
+<h2 id="表单区域"><a href="#表单区域" class="headerlink" title="表单区域"></a>表单区域</h2><h3 id="搜索区域内的输入框和搜索按钮在横竖屏切换占满整个屏幕，并且UI显示效果一致。"><a href="#搜索区域内的输入框和搜索按钮在横竖屏切换占满整个屏幕，并且UI显示效果一致。" class="headerlink" title="搜索区域内的输入框和搜索按钮在横竖屏切换占满整个屏幕，并且UI显示效果一致。"></a>搜索区域内的输入框和搜索按钮在横竖屏切换占满整个屏幕，并且UI显示效果一致。</h3><p>示例: search-input.html 此乃右边固定、左边自适应的写法之一</p>
+<p><img src="http://devconf.qiniudn.com/search-320.png" alt><br><img src="http://devconf.qiniudn.com/search-568.png" alt></p>
+<h3 id="布局类的表单样式在苹果、安卓手机显示效果要一致。"><a href="#布局类的表单样式在苹果、安卓手机显示效果要一致。" class="headerlink" title="布局类的表单样式在苹果、安卓手机显示效果要一致。"></a>布局类的表单样式在苹果、安卓手机显示效果要一致。</h3><p><img src="http://devconf.qiniudn.com/input-51cto-iphone.png" alt><br><img src="http://devconf.qiniudn.com/input-51cto-android.png" alt></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"> /* 修复代码 */</span><br><span class="line">input &#123;</span><br><span class="line">	outline: none; //清除input外边框</span><br><span class="line">	-webkit-appearance: none; // 清除iPhone上默认的样式，如圆角（待确认）</span><br><span class="line">&#125;</span><br><span class="line">/* 保证安卓手机和苹果手机样式一致 */</span><br><span class="line">.inputtext&#123;</span><br><span class="line">    display: block;  //变成块元素消除默认的上下外边距 某些时候有用</span><br><span class="line">    width: 100%; //特定的时候用</span><br><span class="line">    height: 30px; //严格要求的时候用</span><br><span class="line">    //需要设置  `边距、边框、背景、圆角、行高`</span><br><span class="line">    padding: 0;</span><br><span class="line">    background: #e1e1e1; //背景颜色不一致？</span><br><span class="line">    border-radius: 5px 0 0 5px; // 圆角矩形也必须写出</span><br><span class="line">    border: none;</span><br><span class="line">    line-height: 30px; //与高度保持一致</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/移动Web/" rel="tag"># 移动Web</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/06/02/tweenmax-animation/" rel="next" title="TweenMax 动画研究">
+                <i class="fa fa-chevron-left"></i> TweenMax 动画研究
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/06/03/break-of-responsive-web-design/" rel="prev" title="响应式Web设计——断点设计">
+                响应式Web设计——断点设计 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="Chilligo Sheng">
+          <p class="site-author-name" itemprop="name">Chilligo Sheng</p>
+          <p class="site-description motion-element" itemprop="description">小溪里，来自于某个很有情怀的公司，喜欢前端，也喜欢产品，更喜欢闲扯。刚学摄影，喜欢拍拿手菜酸辣土豆丝。</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">19</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#快速审查"><span class="nav-number">1.</span> <span class="nav-text">快速审查</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白"><span class="nav-number">1.1.</span> <span class="nav-text">问题1：屏幕变宽，页面中可能会出现过多空白区域。应当调节元素宽度或者设置其他方式自动来补充页面留白.</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#问题2：写死高度可能使内容超出模块范围，出现截取或者错版的问题。"><span class="nav-number">1.2.</span> <span class="nav-text">问题2：写死高度可能使内容超出模块范围，出现截取或者错版的问题。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#问题3：浮动容易导致错版。"><span class="nav-number">1.3.</span> <span class="nav-text">问题3：浮动容易导致错版。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#问题5：按钮、图片使用一致的对齐方式。"><span class="nav-number">1.4.</span> <span class="nav-text">问题5：按钮、图片使用一致的对齐方式。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#奇思淫巧"><span class="nav-number">2.</span> <span class="nav-text">奇思淫巧</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#NO1-基于表格布局的垂直居中。"><span class="nav-number">2.1.</span> <span class="nav-text">NO1: 基于表格布局的垂直居中。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#NO2-计算间距"><span class="nav-number">2.2.</span> <span class="nav-text">NO2: 计算间距</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#NO3-手机上-1PX-边框"><span class="nav-number">2.3.</span> <span class="nav-text">NO3: 手机上 1PX 边框</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字体-我是这么认为的"><span class="nav-number">3.</span> <span class="nav-text">字体 我是这么认为的~</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#知名互联网公司-移动端字体大小"><span class="nav-number">3.1.</span> <span class="nav-text">知名互联网公司 移动端字体大小</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#表单区域"><span class="nav-number">4.</span> <span class="nav-text">表单区域</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#搜索区域内的输入框和搜索按钮在横竖屏切换占满整个屏幕，并且UI显示效果一致。"><span class="nav-number">4.1.</span> <span class="nav-text">搜索区域内的输入框和搜索按钮在横竖屏切换占满整个屏幕，并且UI显示效果一致。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#布局类的表单样式在苹果、安卓手机显示效果要一致。"><span class="nav-number">4.2.</span> <span class="nav-text">布局类的表单样式在苹果、安卓手机显示效果要一致。</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Chilligo Sheng</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+<div class="powered-by">
+  Hosted by <a href="https://pages.coding.me">Coding Pages</a>
+</div>
+<div class="powered-by">
+  Look at <a href="https://github.com/shenghanqin/">My GitHub</a>
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
